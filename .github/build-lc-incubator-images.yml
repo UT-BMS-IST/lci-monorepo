@@ -1,10 +1,10 @@
 name: Build LC incubator images
 
 on:
-  #  push:
-  #    branches:
-  #      - main
-  #      - prod
+  push:
+    branches:
+      - main
+      - prod
   workflow_dispatch:
 
 permissions:
