@@ -1,0 +1,8 @@
+// _variables.scss
+$min-height: 740px;
+
+@mixin respond-to-max-height($max-height: $min-height) {
+  @media (max-height: $max-height) {
+    @content;
+  }
+}

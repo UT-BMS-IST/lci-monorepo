@@ -1,0 +1,103 @@
+@use '../../../../../../src/assets/css/variables.scss' as booster-variables;
+@use '../../../../../../src/assets/css/booster-colors' as booster-colors;
+
+.wrap {
+  display: inline-flex;
+}
+
+.question-title-and-explanation-wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  justify-items: center;
+  border-radius: 20px;
+
+
+  &.with-border {
+    border: 3px solid booster-colors.$sbs-blue;
+    border-radius: 20px;
+  }
+
+  &.color1 {
+    //background-color: $color1-secondary;
+    //border-color: $color1-main;
+  }
+
+  &.color2 {
+    //background-color: $color2-secondary;
+    //border-color: $color2-main;
+  }
+
+  &.color3 {
+    //background-color: $color3-secondary;
+    //border-color: $color3-main;
+  }
+
+  &.color4 {
+    //background-color: $color4-secondary;
+    //border-color: $color4-main;
+  }
+
+  &.color5 {
+    //background-color: $color5-secondary;
+    //border-color: $color5-main;
+  }
+
+  &.color6 {
+    //background-color: $color6-secondary;
+    //border-color: $color6-main;
+  }
+
+  .left {
+    height: 100px;
+    padding: 5px;
+    @include booster-variables.respond-to-max-height {
+      height: 50px;
+    }
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .right {
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+
+    @include booster-variables.respond-to-max-height {
+      height: 50px;
+    }
+  }
+
+  .question-title-img {
+    height: 75px;
+    @include booster-variables.respond-to-max-height {
+      height: 50px;
+    }
+  }
+
+  .question-title {
+    font-size: 2.2rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 0;
+    align-content: center;
+    text-align: center;
+    padding: 3px 25px;
+  }
+
+  .question-explanation {
+    //font-weight: bold;
+    font-size: 1.45rem;
+    margin: 0;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}

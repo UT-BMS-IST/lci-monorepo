@@ -1,0 +1,26 @@
+<div class="app-background-wrapper">
+  <div class="app-background">
+    <div class="toolbar-wrapper">
+      <mat-toolbar class="toolbar-wrapper" color="primary">
+        <div class="toolbar-content-wrapper">
+          <div class="toolbar-logo-wrapper">
+            <img (click)="goToSbsWebsite()" draggable="false" src="clic-it.avif">
+          </div>
+          <div class="toolbar-title"><span>CLIC-IT Learning communities</span></div>
+        </div>
+      </mat-toolbar>
+    </div>
+    <div class="app-content-wrapper">
+      <div class="header-and-footer header">
+        <img draggable="false" src="header.svg">
+      </div>
+      <div class="app-content">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="header-and-footer footer">
+        <img draggable="false" src="footer.svg">
+      </div>
+    </div>
+  </div>
+
+</div>

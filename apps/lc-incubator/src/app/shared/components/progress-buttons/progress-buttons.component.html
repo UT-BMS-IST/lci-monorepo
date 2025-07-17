@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="progress-buttons-wrapper">
+    <div class="previous-or-home-wrapper">
+      <button (click)="goHome()" *ngIf="this.shouldShowHome$ | async" class="progress-btn prev-home" color="primary"
+              mat-stroked-button>
+        {{ "progressButtons.backToHome" | translate }}
+      </button>
+      <button (click)="previousStep()" *ngIf="this.shouldShowPrevious$ | async" class="progress-btn prev-home"
+              color="primary"
+              mat-stroked-button>
+        {{ "progressButtons.previous" | translate }}
+      </button>
+    </div>
+    <div class="next-button-wrapper">
+      <button (click)="nextStep()" *ngIf="this.shouldShowNext$ |async" [disabled]="this.shouldDisableNext$ | async"
+              class="progress-btn"
+              color="primary"
+              mat-raised-button> {{ "progressButtons.next" | translate }}
+      </button>
+    </div>
+  </div>
+
+</div>

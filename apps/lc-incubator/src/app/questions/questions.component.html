@@ -1,0 +1,17 @@
+<div class="questions-module-wrapper">
+  <div class="progress-bar-wrapper">
+    <mat-progress-bar [value]="progressBarValue" color="primary"
+                      mode="determinate"></mat-progress-bar>
+  </div>
+
+  <div class="app-stepper-wrapper">
+    <app-stepper (afterStepperSelectionChanged)="afterStepperClicked($event)" class="stepper"
+    ></app-stepper>
+  </div>
+
+  <div class="progress-buttons-wrapper">
+    <app-progress-buttons
+    ></app-progress-buttons>
+  </div>
+
+</div>

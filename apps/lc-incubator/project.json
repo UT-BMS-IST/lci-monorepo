@@ -1,0 +1,136 @@
+{
+  "name": "lc-incubator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/lc-incubator/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "baseHref": "/lc-incubator/",
+        "deployUrl": "/lc-incubator/",
+        "outputPath": "dist/apps/lc-incubator",
+        "index": "apps/lc-incubator/src/index.html",
+        "main": "apps/lc-incubator/src/main.ts",
+        "polyfills": [
+          "zone.js"
+        ],
+        "tsConfig": "apps/lc-incubator/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/lc-incubator/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "apps/lc-incubator/src/assets",
+            "output": "assets"
+          }
+        ],
+        "styles": [
+          "apps/lc-incubator/src/styles.scss"
+        ]
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "4mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "6kb",
+              "maximumError": "10kb"
+            }
+          ],
+          "outputHashing": "all",
+          "fileReplacements": [
+            {
+              "replace": "apps/lc-incubator/src/environments/environment.ts",
+              "with": "apps/lc-incubator/src/environments/environment.prod.ts"
+            }
+          ]
+        },
+        "test": {
+          "sourceMap": true,
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "4mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "6kb",
+              "maximumError": "10kb"
+            }
+          ],
+          "outputHashing": "all",
+          "fileReplacements": [
+            {
+              "replace": "apps/lc-incubator/src/environments/environment.ts",
+              "with": "apps/lc-incubator/src/environments/environment.test.ts"
+            }
+          ]
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "continuous": true,
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "lc-incubator:build:production"
+        },
+        "development": {
+          "buildTarget": "lc-incubator:build:development"
+        }
+      },
+      "defaultConfiguration": "development",
+      "options": {
+        "port": 4304
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "lc-incubator:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
+      "options": {
+        "jestConfig": "apps/lc-incubator/jest.config.ts"
+      }
+    },
+    "serve-static": {
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "lc-incubator:build",
+        "spa": true
+      }
+    }
+  }
+}

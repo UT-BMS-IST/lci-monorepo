@@ -1,0 +1,11 @@
+@if (title) {
+  <div [ngClass]="{'fullWidth': mainTitleMode}" class="wrap">
+    <div [ngClass]="{'fullWidth': mainTitleMode}"
+         class="question-title-and-explanation-wrapper {{this.color}} {{mainTitleMode ? 'with-border': ''}}">
+      <div class="middle">
+        <span class="question-title">{{ title }}</span>
+        <div *ngIf="explanation" class="question-explanation"><span>{{ explanation }}</span></div>
+      </div>
+    </div>
+  </div>
+}

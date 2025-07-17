@@ -1,0 +1,41 @@
+.question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.answer {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.results-json {
+  display: flex;
+  flex-direction: column;
+
+  .textarea-wrapper {
+    margin: 20px 0px;
+
+    .results-text-area {
+      min-height: 100px;
+      width: 100%;
+    }
+  }
+
+  .button-wrapper {
+  }
+}
+
+
+.main-text {
+  font-size: 1.2em;
+  margin: 10px 0px;
+}
+
+.guideline-wrapper {
+  border: 1px solid black;
+  border-start-start-radius: 10px;
+  border-end-end-radius: 10px;
+  border-start-end-radius: 10px;
+  border-end-start-radius: 10px;
+  margin: 10px 0px;
+}

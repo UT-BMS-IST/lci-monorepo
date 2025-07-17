@@ -1,0 +1,108 @@
+@import '../../src/assets/css/variables.scss';
+
+$width: 1000px;
+
+.app-background-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+
+  .app-background {
+    border: 2px solid #e0e0e0;
+    width: $width;
+    max-width: $width;
+    min-width: $width;
+    height: 95vh;
+    @include respond-to-max-height {
+      height: 99vh;
+    }
+    max-height: 900px;
+    background-color: white;
+
+    .toolbar-wrapper {
+      height: 80px;
+      width: 100%;
+      @include respond-to-max-height {
+        height: 40px;
+      }
+
+      .toolbar-content-wrapper {
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+        .toolbar-logo-wrapper {
+          margin: 10px;
+          align-content: center;
+          width: 230px;
+          display: flex;
+          align-items: center;
+          @include respond-to-max-height {
+            margin: 2px;
+          }
+
+          img {
+            cursor: pointer;
+            height: 80%;
+          }
+        }
+
+        .toolbar-title {
+          font-size: 2.8rem;
+          font-weight: 500;
+          margin: 10px;
+          align-self: center;
+          margin-left: auto;
+          letter-spacing: 1.5px;
+          font-family: 'Roboto';
+          @include respond-to-max-height {
+            font-size: 1.8rem;
+          }
+        }
+      }
+
+
+    }
+
+    .app-content-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 80px);
+      @include respond-to-max-height {
+        height: calc(100% - 40px);
+      }
+      overflow-y: hidden;
+
+      .header-and-footer {
+        height: 40px;
+        width: 100%;
+        @include respond-to-max-height {
+          height: 20px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        &.header {
+          transform: rotate(180deg);
+        }
+      }
+
+      .app-content {
+        height: calc(100% - (2 * 40px));
+        @include respond-to-max-height {
+          height: calc(100% - (2 * 20px));
+        }
+        //overflow-y: auto;
+        overflow-y: hidden;
+      }
+    }
+  }
+}

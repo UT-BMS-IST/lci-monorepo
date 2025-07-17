@@ -1,0 +1,35 @@
+<mat-stepper #stepper (selectionChange)="stepperSelectionChanged($event)"
+             *ngIf="this.configuration$ | async as configuration"
+             [selectedIndex]="selectedIndex$ | async" linear="false">
+  <mat-step *ngFor="let step of configuration; let i = index" [completed]="step.completed">
+    <ng-template matStepLabel>{{ step.stepperTitle }}</ng-template>
+    <ng-template matStepContent>
+      <div class="mat-step-content-wrapper">
+        <div class="app-question-title-wrapper">
+          <app-question-title
+            [explanation]="step.questionExplanation"
+            [mainTitleMode]="true"
+            [title]="step.title"></app-question-title>
+        </div>
+        <div class="questions-wrapper">
+          <div class="internal-wrapper">
+            <ng-container *ngFor="let question of getVisibleQuestions(step.questions); let i = index;">
+              <div
+                class="individual-question-wrapper {{getVisibleQuestionsLength(step.questions) <= 1  ? 'single': ''}}">
+                <app-question-wrapper [question]="question"></app-question-wrapper>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>{{ "Suggesties" }}</ng-template>
+    <ng-template matStepContent>
+      <div class="mat-step-content-wrapper">
+        <app-results-step></app-results-step>
+      </div>
+    </ng-template>
+  </mat-step>
+</mat-stepper>

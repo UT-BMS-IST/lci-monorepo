@@ -1,0 +1,23 @@
+.questions-module-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .progress-bar-wrapper {
+    height: 4px;
+  }
+
+  .app-stepper-wrapper {
+    height: calc(100% - 34px);
+    overflow-y: auto;
+
+    .stepper {
+      display: flex;
+      height: 100%;
+    }
+  }
+
+  .progress-buttons-wrapper {
+    height: 30px;
+  }
+}

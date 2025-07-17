@@ -1,0 +1,43 @@
+<div class="welcome-wrapper">
+  <div class="title-wrapper">
+    <!--    <img alt="clic-it-logo" class="title-image" src="LC_incubator_logo.png">-->
+    <img alt="booster" class="title-image" src="clic-it.avif">
+    <span class="title-text">{{ "welcome.title" | translate }}</span>
+  </div>
+  <div class="main-part">
+    <div class="image-and-text-wrapper">
+      <div class="all-texts-wrapper">
+        <div class="row">
+          <div class="text-wrapper bold">{{ "welcome.instruments" | translate }}</div>
+        </div>
+        <div class="row">
+          <div class="text-wrapper bold">{{ "welcome.whatToDo" | translate }}</div>
+          <div class="text-wrapper">{{ "welcome.whatToDoDetails" | translate }}</div>
+        </div>
+        <div class="row">
+          <div class="text-wrapper bold">{{ "welcome.whatYouGet" | translate }}</div>
+          <div class="text-wrapper">{{ "welcome.whatYouGetDetails1" | translate }}</div>
+          <div class="text-wrapper">{{ "welcome.whatYouGetDetails2" | translate }}</div>
+          <div class="text-wrapper">{{ "welcome.whatYouGetDetails3" | translate }}</div>
+        </div>
+        <div class="row">
+          <div class="text-wrapper bold">{{ "welcome.whichInstruments" | translate }}</div>
+          <div class="text-wrapper">{{ "welcome.whichInstrumentsDetails" | translate }}</div>
+        </div>
+      </div>
+      <!--      <div class="image-wrapper">-->
+      <!--        <img alt="booster" src="clic-it.avif">-->
+      <!--      </div>-->
+    </div>
+
+    <div class="go-to-quiz-button-wrapper">
+      <button (click)="goToQuiz()" class="go-to-quiz-button" color="primary"
+              mat-raised-button>{{ "welcome.start" | translate }}
+      </button>
+    </div>
+  </div>
+
+  <div class="bottom-part">
+    <app-clic-it-social-media></app-clic-it-social-media>
+  </div>
+</div>

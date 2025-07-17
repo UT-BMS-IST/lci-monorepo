@@ -1,0 +1,12 @@
+<div *ngIf="question" class="question-wrapper">
+  <div *ngIf="question.questionSubtitle" class="subtitle-wrapper">
+    <app-question-title *ngIf="question.questionSubtitle" [color]="question.color"
+                        [mainTitleMode]="false"
+                        [title]="question.questionSubtitle"></app-question-title>
+  </div>
+  <ng-container [ngSwitch]="question!.type">
+    <app-text-question *ngSwitchCase="'text'" [question]="question"></app-text-question>
+    <app-checkbox-question *ngSwitchCase="'checkbox'" [question]="question"></app-checkbox-question>
+    <app-radio-button-question *ngSwitchCase="'radio'" [question]="question"></app-radio-button-question>
+  </ng-container>
+</div>

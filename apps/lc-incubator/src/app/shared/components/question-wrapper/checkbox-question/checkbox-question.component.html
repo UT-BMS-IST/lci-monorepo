@@ -1,0 +1,10 @@
+<div *ngIf="question">
+  <div *ngFor="let option of question.configuration.options!" class="checkbox-wrapper">
+    <input (click)="checkboxSelected($event)" [id]="option.value" [name]="question.id"
+           [value]="option.value"
+           type="checkbox">
+    <label [for]="option.value">{{ option.label }}</label>
+    <mat-icon *ngIf="option.optionExplanation" [matTooltip]="getTooltip(option.optionExplanation)">info</mat-icon>
+
+  </div>
+</div>

@@ -1,0 +1,59 @@
+// Default icon height
+$icon-height: 60px;
+$reduced-icon-height: 50px;
+
+// Mixin for max-height media query
+@mixin respond-to-max-height($max-height: 800px) {
+  @media (max-height: $max-height) {
+    @content;
+  }
+}
+
+.sbs-social-media-wrapper {
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  gap: 10px;
+  overflow-y: hidden;
+
+  .social-media {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex: 1;
+
+    .social-media-icon {
+      width: $icon-height;
+      height: $icon-height;
+
+      @include respond-to-max-height {
+        width: $reduced-icon-height;
+        height: $reduced-icon-height;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .eu-text-wrapper {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    align-items: center;
+
+    .eu-text {
+      font-size: 11px;
+      width: 446px;
+    }
+
+    .eu-image {
+      height: $icon-height;
+
+      @include respond-to-max-height {
+        height: $reduced-icon-height;
+      }
+    }
+  }
+}

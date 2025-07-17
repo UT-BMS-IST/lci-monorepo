@@ -1,0 +1,20 @@
+{
+  "welcome": {
+    "title": "Welkom bij LC Incubator!",
+    "instruments": "Wil je instrumenten verkennen voor het ontwerpen en ontwikkelen van learning communities?",
+    "whatToDo": "Wat te doen?",
+    "whatToDoDetails": " Geef met slechts een paar klikken aan (1) voor welk type learning community je een instrument zoekt, (2) welke uitdaging je wilt aanpakken en (3) aan welke voorwaarden een instrument in jouw situatie moet voldoen.",
+    "whatYouGet": "Wat krijg je?",
+    "whatYouGetDetails1": "Suggesties voor instrumenten, overzichtelijk gepresenteerd in een canvas.",
+    "whatYouGetDetails2": "Inzicht in hoe gebruiksklaar de instrumenten zijn voor toepassing in jouw situatie.",
+    "whatYouGetDetails3": "Gerichte hulp bij het verder verkennen van de voorgestelde en alternatieve instrumenten via prompts voor gebruik in Large Language Models (zoals ChatGPT).",
+    "whichInstruments": "Welke instrumenten vind je hier?",
+    "whichInstrumentsDetails": "Alle instrumenten in de LC Incubator zijn te vinden op  Nederlandse websites rondom learning communities. Ze zijn geschikt voor werksessies van maximaal 2 uren voor deelnemers met uiteenlopende achtergronden en uit verschillende organisaties. Dan is er een eerste aanzet die verdiept kan worden in aanvullende sessies.\n",
+    "start": "Start"
+  },
+  "progressButtons": {
+    "next": "Volgende",
+    "previous": "Vorige",
+    "backToHome": "Terug naar start"
+  }
+}
