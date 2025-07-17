@@ -12,8 +12,6 @@
         "{options.outputPath}"
       ],
       "options": {
-        "baseHref": "/lc-incubator/",
-        "deployUrl": "/lc-incubator/",
         "outputPath": "dist/apps/lc-incubator",
         "index": "apps/lc-incubator/src/index.html",
         "main": "apps/lc-incubator/src/main.ts",
