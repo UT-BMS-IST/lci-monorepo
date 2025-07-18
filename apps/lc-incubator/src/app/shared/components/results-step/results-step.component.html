@@ -1,9 +1,12 @@
-<h3>Your input:</h3>
-
-<div *ngFor="let result of results">
-  <span class="">{{ result.question }}</span> - <span class="answer">{{ result.answer }}</span>
+<div class="results-container">
+  <h2>Your Answers</h2>
+  <div class="results-list">
+    <div *ngFor="let result of results" class="result-card">
+      <span class="result-question">{{ result.question }}</span>
+      <span class="result-answer">{{ result.answer }}</span>
+    </div>
+  </div>
 </div>
-<!--<h1> Our recommendations: </h1>-->
 
 <div *ngFor="let guideline of guidelines">
   <div *ngIf="guideline.visible" class="guideline-wrapper">
