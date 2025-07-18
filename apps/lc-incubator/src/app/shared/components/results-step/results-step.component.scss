@@ -1,22 +1,23 @@
-:root {
-  --primary-text-color: #333;
-  --secondary-text-color: #555;
-  --accent-color: #007bff;
-  --card-background: #fff;
-  --container-background: #f7f9fc;
-  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --border-radius: 8px;
-}
+// SCSS Variables
+@use '../../../../../src/assets/css/booster-colors' as booster-colors;
 
+$primary-text-color: #333;
+$secondary-text-color: #555;
+$card-background: #fff;
+$container-background: #f7f9fc;
+$card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$border-radius: 8px;
+
+// Styles
 .results-container {
   padding: 20px;
-  background-color: var(--container-background);
+  background-color: $container-background;
   font-family: Arial, sans-serif;
 }
 
 h2 {
   font-size: 24px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin-bottom: 20px;
 }
 
@@ -29,10 +30,10 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  background-color: var(--card-background);
-  border-radius: var(--border-radius);
-  box-shadow: var(--card-shadow);
-  border-left: 4px solid var(--accent-color);
+  background-color: $card-background;
+  border-radius: $border-radius;
+  box-shadow: $card-shadow;
+  border-left: 4px solid booster-colors.$sbs-blue;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
@@ -44,22 +45,19 @@ h2 {
 .result-question {
   font-size: 18px;
   font-weight: bold;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin-bottom: 8px;
 }
 
 .result-answer {
   font-size: 16px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-weight: normal;
 }
 
 .guideline-wrapper {
   border: 1px solid black;
-  border-start-start-radius: 10px;
-  border-end-end-radius: 10px;
-  border-start-end-radius: 10px;
-  border-end-start-radius: 10px;
+  border-radius: 10px; // Simplified from individual properties
   margin: 10px 0px;
   padding: 10px;
 }
