@@ -33,7 +33,7 @@ h2 {
   background-color: $card-background;
   border-radius: $border-radius;
   box-shadow: $card-shadow;
-  border-left: 4px solid booster-colors.$sbs-blue;
+  border-left: 4px solid booster-colors.$lc-blue;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
