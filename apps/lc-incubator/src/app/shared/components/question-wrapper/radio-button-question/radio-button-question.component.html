@@ -1,12 +1,25 @@
 @if (question) {
-  <div *ngFor="let option of question.configuration.options!" class="radio-wrapper">
-    <input (click)="radioButtonSelected($event)" [id]="option.value" [name]="question.id"
-           [value]="option.value"
-           type="radio">
-    <label [for]="option.value">{{ option.label }}</label>
-    @if (option.optionExplanation) {
-      <mat-icon color="primary" [matTooltip]="getTooltip(option.optionExplanation)">info</mat-icon>
-    }
+  <mat-radio-group
+    class="radio-group-wrapper"
+    (change)="radioButtonSelected($event)">
 
-  </div>
+    @for (option of question.configuration.options!; track option.value) {
+      <mat-radio-button
+        class="radio-button-wrapper"
+        [id]="option.value"
+        [value]="option.value"
+        color="primary">
+
+        {{ option.label }}
+        @if (option.optionExplanation) {
+          <mat-icon
+            color="primary"
+            [matTooltip]="getTooltip(option.optionExplanation)"
+            style="margin-left: 8px; vertical-align: middle;">
+            info
+          </mat-icon>
+        }
+      </mat-radio-button>
+    }
+  </mat-radio-group>
 }

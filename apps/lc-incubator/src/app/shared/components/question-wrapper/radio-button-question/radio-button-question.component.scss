@@ -1,6 +1,7 @@
-.radio-wrapper {
+.radio-group-wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: start;
 
   mat-icon {
     margin-left: auto;
