@@ -76,9 +76,9 @@ export class QuestionsService {
       const option = question.configuration.options?.find(
         (option) => option.value === value
       );
-      return option ? option.label : 'Not answered.';
+      return option ? option.label : 'Niet beantwoord.';
     } else {
-      return value ?? 'Not answered.';
+      return value ?? 'Niet beantwoord.';
     }
   }
 
@@ -86,7 +86,7 @@ export class QuestionsService {
     return (
       values
         ?.map((value) => this.getLabelForValue(question, value))
-        .join(', ') ?? 'Not answered.'
+        .join(', ') ?? 'Niet beantwoord.'
     );
   }
 }
