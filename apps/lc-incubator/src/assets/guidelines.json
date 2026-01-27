@@ -1,0 +1,2381 @@
+[
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "researchFacility"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceProject"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceClub"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "otherOutreachProgram"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "afterschoolProgramme"
+      }
+    ],
+    "mainText": "For outreach programs, like after-school clubs you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case studies",
+        "text": "You can find more details on the case studies \"Zoo School to go\" and \"UT Masterclasses\" in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "1. Connection to Real-Life and Relevant Topics:",
+        "text": "Choose topics that are relevant to the students' daily lives and current scientific issues. For example, as one of our best practice case studies ‘the Zoo School’ did it. They effectively connected participants to real-world ecological and biological concepts by observing animals and learning about their habitats and behaviors. "
+      },
+      {
+        "title": "2. Encouraging Curiosity and Inquiry:",
+        "text": "Design activities that promote curiosity and inquiry-based learning. For example, as it was done in our case study ‘UT Masterclasses’, where the program involved students in experiments and project development, which helps stimulate their curiosity and engage them in scientific inquiry. "
+      },
+      {
+        "title": "3. Interactive and Hands-On Activities:",
+        "text": "Incorporate interactive elements and hands-on experiences. During the Zoo School lessons students were able to explore nature at their own pace, interact with the environment, and engage in tactile learning activities like finding leaves, seeds and bones in a close by forest. "
+      },
+      {
+        "title": "4. Collaboration and Group Work:",
+        "text": "Foster collaboration among participants. Group projects and discussions can enhance learning and make the experience more enjoyable. The Masterclass series includes collaborative experiments and project presentations, which encourage teamwork and peer learning."
+      },
+      {
+        "title": "5. Age-Appropriate Content and Language:",
+        "text": "Ensure that the content and language used in the activities are appropriate for the age and abilities of the participants. This approach was effectively used in both the Zoo School and Masterclass programs to tailor the learning experience to different age groups."
+      },
+      {
+        "title": "Implementation Suggestions:",
+        "text": ""
+      },
+      {
+        "title": "Plan Interactive Visits:",
+        "text": "Organize visits to local zoos or science centers where students can interact with exhibits and animals. Provide them with questions or tasks to complete during their visit to encourage engagement and observation."
+      },
+      {
+        "title": "Conduct Hands-On Workshops:",
+        "text": "Develop workshops that involve hands-on experiments and projects. These can be based on the scientific topics covered in school, but with additional practical applications and experiments that they may not get to do in a regular classroom setting."
+      },
+      {
+        "title": "Facilitate Group Projects:",
+        "text": "Create opportunities for students to work in groups on science projects. This can include designing experiments, building models, or presenting their findings to the class. This approach was successfully implemented in the Masterclass program, fostering both collaboration and a deeper understanding of the scientific process."
+      },
+      {
+        "title": "",
+        "text": "By integrating these elements into your afterschool program, you can create an engaging, educational, and enjoyable experience that encourages a deeper interest in STEM subjects among students."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "library"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceCenter"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "botanicalGarden"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "otherDesignedEnvironment"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "zoo"
+      }
+    ],
+    "mainText": "Additional Advice for Creating a Zoo Activity",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case study 'Tierpark Nordhorn'",
+        "text": "You can find more details on the case study and results in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "Connection to Real Life",
+        "text": "Ensure that the activities and exhibits have a clear connection to real-life applications and scenarios. For example, you could include interactive displays on how animal behaviors observed in the zoo relate to animals’ survival in the wild."
+      },
+      {
+        "title": "Relevance",
+        "text": "Choose topics that are relevant and timely, such as conservation efforts, climate change impact on habitats, or the role of zoos in protecting endangered species. This helps in making the content more engaging and meaningful for visitors."
+      },
+      {
+        "title": "Encouraging Curiosity and Inquiry",
+        "text": "Design exhibits and activities that stimulate curiosity and encourage visitors to ask questions and seek answers. This can be achieved through question boards, interactive touch screens, or even live demonstrations by zoo staff."
+      },
+      {
+        "title": "Combining Sensory Information",
+        "text": "Use a mix of visual, auditory, and kinesthetic elements. For instance, have audio recordings of animal sounds, tactile exhibits where visitors can touch replicas of animal fur or bones, and visual displays that show animal habitats."
+      },
+      {
+        "title": "Active Involvement and Interactivity",
+        "text": "Engage visitors actively with hands-on experiences, such as feeding certain animals under supervision, participating in animal care workshops, or using augmented reality (AR) to see how animals live in different environments."
+      },
+      {
+        "title": "Visually Attractive and Authentic Materials",
+        "text": "Ensure that all materials used are visually appealing and authentic. This includes realistic replicas, live animals, and naturalistic enclosures that mimic the animals’ natural habitats as closely as possible."
+      },
+      {
+        "title": "Collaboration and Family Learning",
+        "text": "Design activities that promote family learning and collaboration. For example, create scavenger hunts or group tasks that families can do together, fostering a sense of teamwork and collective discovery."
+      },
+      {
+        "title": "Age- and Ability-Appropriate Design",
+        "text": "Tailor the activities to be age-appropriate, with different levels of complexity available. This ensures accessibility and enjoyment for all visitors, from young children to seniors. Provide materials and activities in multiple languages if possible."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceMuseum"
+      }
+    ],
+    "mainText": "Additional Advice for Creating a Science Museum Activity",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case study 'DeMuseumfabriek'",
+        "text": "You can find more details on the case study and results in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure that the activities and exhibits have a clear connection to real-life applications and scenarios. For example, include interactive displays on how scientific principles observed in the museum relate to real-world technology and natural phenomena."
+      },
+      {
+        "title": "2. Relevance:",
+        "text": "Choose topics that are relevant and timely, such as the impact of scientific discoveries on modern technology, current environmental issues, or the role of science in understanding pandemics. This helps in making the content more engaging and meaningful for visitors."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design exhibits and activities that stimulate curiosity and encourage visitors to ask questions and seek answers. This can be achieved through question boards, interactive touch screens, or even live demonstrations by museum staff."
+      },
+      {
+        "title": "4. Combining Sensory Information:",
+        "text": "Use a mix of visual, auditory, and kinesthetic elements. For instance, have audio recordings of scientific phenomena, tactile exhibits where visitors can interact with scientific models, and visual displays that show scientific processes."
+      },
+      {
+        "title": "5. Active Involvement and Interactivity:",
+        "text": "Engage visitors actively with hands-on experiences, such as participating in scientific experiments, attending workshops, or using augmented reality (AR) to explore scientific concepts."
+      },
+      {
+        "title": "6. Visually Attractive and Authentic Materials:",
+        "text": "Ensure that all materials used are visually appealing and authentic. This includes realistic replicas, accurate scientific models, and naturalistic displays that reflect scientific accuracy as closely as possible."
+      },
+      {
+        "title": "7. Collaboration and Family Learning:",
+        "text": "Design activities that promote family learning and collaboration. For example, create scavenger hunts or group tasks that families can do together, fostering a sense of teamwork and collective discovery."
+      },
+      {
+        "title": "8. Age- and Ability-Appropriate Design:",
+        "text": "Tailor the activities to be age-appropriate, with different levels of complexity available. This ensures accessibility and enjoyment for all visitors, from young children to seniors. Provide materials and activities in multiple languages if possible."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "website"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "podcast"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "game"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "socialMedia"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "massMedia"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "design"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "otherTechnologyMediaProduct"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "researchFacility"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceProject"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceClub"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "otherOutreachProgram"
+      }
+    ],
+    "mainText": "For outreach programs, which often involve activities outside traditional learning environments, such as science projects or science camps, you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure the activity demonstrates a clear link between the scientific concepts and everyday life. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "2. Choice of Relevant Topic:",
+        "text": "Select topics that complement formal education but go beyond it, covering interdisciplinary areas or introducing new skills."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity, encouraging participants to ask questions and seek answers actively."
+      },
+      {
+        "title": "4. Personal Experience and Interest-Based:",
+        "text": "Tailor the activity to align with the interests of the participants and provide hands-on, interactive experiences that make learning personal and engaging."
+      },
+      {
+        "title": "5. Interactivity:",
+        "text": "Incorporate interactive elements such as hands-on experiments, discussions, and gamified components to engage participants actively. "
+      },
+      {
+        "title": "6. Collaboration and Dialogue:",
+        "text": "Promote collaboration among participants through group activities and discussions, fostering a community learning environment."
+      },
+      {
+        "title": "7. Age and Ability-Appropriate:",
+        "text": "Ensure that the language and tasks are suitable for the age and abilities of the participants, allowing for adjustments to cater to different levels."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "afterschoolProgramme"
+      }
+    ],
+    "mainText": "For outreach programs, like after-school clubs you can consider the following design elements:",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case studies",
+        "text": "You can find more details on the case studies \"Zoo School to go\" and \"UT Masterclasses\" in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "1. Connection to Real-Life and Relevant Topics:",
+        "text": "Choose topics that are relevant to the students' daily lives and current scientific issues. For example, as one of our best practice case studies ‘the Zoo School’ did it. They effectively connected participants to real-world ecological and biological concepts by observing animals and learning about their habitats and behaviors. "
+      },
+      {
+        "title": "2. Encouraging Curiosity and Inquiry:",
+        "text": "Design activities that promote curiosity and inquiry-based learning. For example, as it was done in our case study ‘UT Masterclasses’, where the program involved students in experiments and project development, which helps stimulate their curiosity and engage them in scientific inquiry. "
+      },
+      {
+        "title": "3. Interactive and Hands-On Activities:",
+        "text": "Incorporate interactive elements and hands-on experiences. During the Zoo School lessons students were able to explore nature at their own pace, interact with the environment, and engage in tactile learning activities like finding leaves, seeds and bones in a close by forest. "
+      },
+      {
+        "title": "4. Collaboration and Group Work:",
+        "text": "Foster collaboration among participants. Group projects and discussions can enhance learning and make the experience more enjoyable. The Masterclass series includes collaborative experiments and project presentations, which encourage teamwork and peer learning."
+      },
+      {
+        "title": "5. Age-Appropriate Content and Language:",
+        "text": "Ensure that the content and language used in the activities are appropriate for the age and abilities of the participants. This approach was effectively used in both the Zoo School and Masterclass programs to tailor the learning experience to different age groups."
+      },
+      {
+        "title": "Implementation Suggestions:",
+        "text": ""
+      },
+      {
+        "title": "Plan Interactive Visits:",
+        "text": "Organize visits to local zoos or science centers where students can interact with exhibits and animals. Provide them with questions or tasks to complete during their visit to encourage engagement and observation."
+      },
+      {
+        "title": "Conduct Hands-On Workshops:",
+        "text": "Develop workshops that involve hands-on experiments and projects. These can be based on the scientific topics covered in school, but with additional practical applications and experiments that they may not get to do in a regular classroom setting."
+      },
+      {
+        "title": "Facilitate Group Projects:",
+        "text": "Create opportunities for students to work in groups on science projects. This can include designing experiments, building models, or presenting their findings to the class. This approach was successfully implemented in the Masterclass program, fostering both collaboration and a deeper understanding of the scientific process."
+      },
+      {
+        "title": "",
+        "text": "By integrating these elements into your afterschool program, you can create an engaging, educational, and enjoyable experience that encourages a deeper interest in STEM subjects among students."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "library"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceCenter"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "botanicalGarden"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "otherDesignedEnvironment"
+      }
+    ],
+    "mainText": "When developing a new activity for a designed environment, such as a science center or museum exhibit, focus on creating an engaging and interactive learning space. Key characteristics to consider include:",
+    "titleAndTexts": [
+      {
+        "title": "Interactivity and Engagement",
+        "text": "Design exhibits that encourage hands-on interaction to help visitors engage deeply with the material."
+      },
+      {
+        "title": "Multisensory Experiences",
+        "text": "Utilize visual, auditory, and kinesthetic elements to enrich the learning experience and cater to different learning styles."
+      },
+      {
+        "title": "Authentic Materials",
+        "text": "Use real-life artifacts and materials that provide authentic learning experiences."
+      },
+      {
+        "title": "Relevance",
+        "text": "Ensure the content is connected to real-life applications to make it more relatable and engaging."
+      },
+      {
+        "title": "Age-appropriate Design",
+        "text": "Tailor the content and complexity to suit different age groups, ensuring it is accessible and enjoyable for all visitors."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "zoo"
+      }
+    ],
+    "mainText": "Additional Advice for Creating a Zoo Activity",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case study 'Tierpark Nordhorn'",
+        "text": "You can find more details on the case study and results in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "Connection to Real Life",
+        "text": "Ensure that the activities and exhibits have a clear connection to real-life applications and scenarios. For example, you could include interactive displays on how animal behaviors observed in the zoo relate to animals’ survival in the wild."
+      },
+      {
+        "title": "Relevance",
+        "text": "Choose topics that are relevant and timely, such as conservation efforts, climate change impact on habitats, or the role of zoos in protecting endangered species. This helps in making the content more engaging and meaningful for visitors."
+      },
+      {
+        "title": "Encouraging Curiosity and Inquiry",
+        "text": "Design exhibits and activities that stimulate curiosity and encourage visitors to ask questions and seek answers. This can be achieved through question boards, interactive touch screens, or even live demonstrations by zoo staff."
+      },
+      {
+        "title": "Combining Sensory Information",
+        "text": "Use a mix of visual, auditory, and kinesthetic elements. For instance, have audio recordings of animal sounds, tactile exhibits where visitors can touch replicas of animal fur or bones, and visual displays that show animal habitats."
+      },
+      {
+        "title": "Active Involvement and Interactivity",
+        "text": "Engage visitors actively with hands-on experiences, such as feeding certain animals under supervision, participating in animal care workshops, or using augmented reality (AR) to see how animals live in different environments."
+      },
+      {
+        "title": "Visually Attractive and Authentic Materials",
+        "text": "Ensure that all materials used are visually appealing and authentic. This includes realistic replicas, live animals, and naturalistic enclosures that mimic the animals’ natural habitats as closely as possible."
+      },
+      {
+        "title": "Collaboration and Family Learning",
+        "text": "Design activities that promote family learning and collaboration. For example, create scavenger hunts or group tasks that families can do together, fostering a sense of teamwork and collective discovery."
+      },
+      {
+        "title": "Age- and Ability-Appropriate Design",
+        "text": "Tailor the activities to be age-appropriate, with different levels of complexity available. This ensures accessibility and enjoyment for all visitors, from young children to seniors. Provide materials and activities in multiple languages if possible."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceMuseum"
+      }
+    ],
+    "mainText": "Additional Advice for Creating a Science Museum Activity",
+    "titleAndTexts": [
+      {
+        "title": "These results are based on our case study 'DeMuseumfabriek'",
+        "text": "You can find more details on the case study and results in the Surrounded by Science Deliverable 4.2, 4.3, 5.2 and 5.3 (go to the website www.surroundedby.science to access the Deliverables)"
+      },
+      {
+        "title": "1. Connection to Real Life:",
+        "text": "Ensure that the activities and exhibits have a clear connection to real-life applications and scenarios. For example, include interactive displays on how scientific principles observed in the museum relate to real-world technology and natural phenomena."
+      },
+      {
+        "title": "2. Relevance:",
+        "text": "Choose topics that are relevant and timely, such as the impact of scientific discoveries on modern technology, current environmental issues, or the role of science in understanding pandemics. This helps in making the content more engaging and meaningful for visitors."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design exhibits and activities that stimulate curiosity and encourage visitors to ask questions and seek answers. This can be achieved through question boards, interactive touch screens, or even live demonstrations by museum staff."
+      },
+      {
+        "title": "4. Combining Sensory Information:",
+        "text": "Use a mix of visual, auditory, and kinesthetic elements. For instance, have audio recordings of scientific phenomena, tactile exhibits where visitors can interact with scientific models, and visual displays that show scientific processes."
+      },
+      {
+        "title": "5. Active Involvement and Interactivity:",
+        "text": "Engage visitors actively with hands-on experiences, such as participating in scientific experiments, attending workshops, or using augmented reality (AR) to explore scientific concepts."
+      },
+      {
+        "title": "6. Visually Attractive and Authentic Materials:",
+        "text": "Ensure that all materials used are visually appealing and authentic. This includes realistic replicas, accurate scientific models, and naturalistic displays that reflect scientific accuracy as closely as possible."
+      },
+      {
+        "title": "7. Collaboration and Family Learning:",
+        "text": "Design activities that promote family learning and collaboration. For example, create scavenger hunts or group tasks that families can do together, fostering a sense of teamwork and collective discovery."
+      },
+      {
+        "title": "8. Age- and Ability-Appropriate Design:",
+        "text": "Tailor the activities to be age-appropriate, with different levels of complexity available. This ensures accessibility and enjoyment for all visitors, from young children to seniors. Provide materials and activities in multiple languages if possible."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "website"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "podcast"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "game"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "socialMedia"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "massMedia"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "analyze"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "otherTechnologyMediaProduct"
+      }
+    ],
+    "mainText": "To start a new activity focused on technology and media products, it is essential to consider the key design characteristics identified in the Surrounded by Science project.",
+    "titleAndTexts": [
+      {
+        "title": "",
+        "text": "These recommendations are based on the Surrounded by Science Deliverable 2.2, which outlines the key characteristics and success criteria for technology and media products."
+      },
+      {
+        "title": "1. Accessibility and Ease of Use:",
+        "text": "Ensure that the product is intuitive and accessible across different devices to maximize user engagement."
+      },
+      {
+        "title": "2. Connection to Real Life:",
+        "text": "Make sure the content shows clear connections between the scientific phenomena and everyday situations. This helps participants see the relevance and application of what they are learning."
+      },
+      {
+        "title": "3. Encouraging Curiosity and Inquiry:",
+        "text": "Design the activity to stimulate curiosity and promote questioning and inquiry. This can be achieved through challenging problems, interactive elements, and encouraging users to explore and find answers on their own."
+      },
+      {
+        "title": "4. Visual Attractiveness:",
+        "text": "The design should be visually appealing to attract and retain the audience's attention. Use high-quality graphics, engaging layouts, and an overall appealing aesthetic."
+      },
+      {
+        "title": "5. Engaging Presentation of Information:",
+        "text": "Present information in a manageable and engaging way, such as through storytelling, humor, or real-life examples. This helps in maintaining interest and enhancing understanding."
+      },
+      {
+        "title": "6. Interaction and Active Engagement:",
+        "text": "Incorporate elements that allow interaction with the content and active engagement from the audience. This can include quizzes, interactive videos, and opportunities for users to comment or ask questions."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceProject"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "researchFacility"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "scienceClub"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "afterschoolProgramme"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, specifically an afterschool programme, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "Ensure the program connects the content to real-life situations, such as relating animal behavior observed at the zoo to students' everyday experiences. Choose relevant topics that enhance understanding of biological sciences, environmental conservation, or other STEM areas covered in the program. Design activities to encourage curiosity and inquiry, prompting students to ask questions and explore answers through observation and research. Provide opportunities for personal engagement, such as hands-on activities where students can interact directly with animals or scientific materials. Incorporate interactive elements like guided tours, interactive exhibits, or experiments that require active student participation. Facilitate collaboration through group activities and discussions to enhance learning through peer interaction. Ensure the content and tasks are age-appropriate and suited to the students' abilities, using clear and understandable language."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "outreachProgram"
+      },
+      {
+        "questionId": "q3",
+        "value": "otherOutreachProgram"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceMuseum"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "library"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "zoo"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "scienceCenter"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "botanicalGarden"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "designedEnvironment"
+      },
+      {
+        "questionId": "q4",
+        "value": "otherDesignedEnvironment"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "website"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "podcast"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "game"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "socialMedia"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "massMedia"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q1",
+        "value": "evaluate"
+      },
+      {
+        "questionId": "q2",
+        "value": "technologyMediaProduct"
+      },
+      {
+        "questionId": "q5",
+        "value": "otherTechnologyMediaProduct"
+      }
+    ],
+    "mainText": "To evaluate a finished and established activity of an outreach program, the following advice and guidelines can be derived based on the Surrounded by Science project documents, specifically Deliverable 2.2 and Deliverable 4.1.",
+    "titleAndTexts": [
+      {
+        "title": "1. Identify Your Design Characteristics:",
+        "text": "To evaluate a finished and established activity of an outreach program, start by identifying key design characteristics such as the connection to real life, relevance of the topic, encouragement of curiosity and inquiry, personal engagement, interactivity, collaboration, and age-appropriate content."
+      },
+      {
+        "title": "2. Use of Evaluation Tools:",
+        "text": "Next, use evaluation tools like observation schemes and questionnaires to systematically gather and organize data. You can find possible tools in our Deliverable 5.1."
+      },
+      {
+        "title": "3. Implementation and Data Collection:",
+        "text": "Through the implementation and data collection you will gain insights into the quality of your activity. "
+      },
+      {
+        "title": "4.Summary of Success Criteria: ",
+        "text": "Finally, you can created a summary of the sccess criterias to serve as a benchmark for evaluation. This matrix helps you to measure your current and possible future activities and will show you areas for improvement."
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["interesting"]
+      }
+    ],
+    "mainText": "Being Interested and Excited by Science",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Create interactive and dynamic exhibits that involve elements of surprise or unique phenomena not commonly seen in everyday life. For instance, live demonstrations or feeding sessions that explain the science behind animal behaviors can captivate and stimulate interest and excitement."
+      },
+      {
+        "title": "Implementation",
+        "text": "Use vibrant, multimedia displays that catch the eye and engage the senses, such as augmented reality that shows layers of information about an animal's anatomy or habitat as visitors view the animals."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Hands-on Exploration:",
+        "text": "Provide hands-on activities to engage learners and stimulate curiosity [Bell, P., Lewenstein, B., Shouse, A. W., & Feder, M. A. (Eds.). (2009). Learning science in informal enviroments: People, places and pursuits. National Academies Press.]"
+      },
+      {
+        "title": "Relevance to Learner's Lives:",
+        "text": "Design activities that connect scientific concepts to real-life experiences and interests of participants.[National Research Council. (2009). Learning science through computer games and simulations. National Academies Press.]"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["understanding"]
+      }
+    ],
+    "mainText": "Understanding Scientific Content and Knowledge",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Provide clear, well-structured informational content that is easily digestible. Use diagrams, infographics, and models to explain complex concepts such as genetics, ecosystems, or conservation issues."
+      },
+      {
+        "title": "Implementation",
+        "text": "Organize themed tours that focus on specific scientific concepts, such as biodiversity or ecological balance, with knowledgeable guides who can tailor the information to different age groups and knowledge levels."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Oppertunities for Inquiry:",
+        "text": "Foster oppertunities for learners to ask questions, investigate phenomena, and construct understanding. [Falk, J. H., & Dierking, L. D. (2016).The museum experience revisited. Routledge.]"
+      },
+      {
+        "title": "Use of Multiple Modalities:",
+        "text": "Incorporate multimedia resources to present scientific information in various formats for diverse learners.[National Research Council. (2009). Learning sciene in informal enviroments: People, places, and pursuits. National Academies Press.]"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["learned"]
+      }
+    ],
+    "mainText": "Engaging in Scientific Reasoning",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Encourage visitors to make predictions and then confirm or explore these predictions through observations or interactive activities. This could involve hypothesis testing where visitors guess outcomes based on scientific principles."
+      },
+      {
+        "title": "Implementation",
+        "text": "Set up experiments or simulation stations where visitors can change variables and observe outcomes, such as adjusting the temperature or environment to see how it affects an animal's behavior."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Oppertunities for Inquiry:",
+        "text": "Foster oppertunities for learners to ask questions, investigate phenomena, and construct understanding. [Falk, J. H., & Dierking, L. D. (2016).The museum experience revisited. Routledge.]"
+      },
+      {
+        "title": "Use of Multiple Modalities:",
+        "text": "Incorporate multimedia resources to present scientific information in various formats for diverse learners.[National Research Council. (2009). Learning sciene in informal enviroments: People, places, and pursuits. National Academies Press.]"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["insight"]
+      }
+    ],
+    "mainText": "Reflecting on Science",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Facilitate discussions and reflections on the ethical, social, or environmental implications of scientific discoveries or the human impact on ecosystems. This helps deepen the connection between science and societal issues."
+      },
+      {
+        "title": "Implementation",
+        "text": "Use question prompts at exhibits, or digital feedback stations where visitors can leave their thoughts and read others' reflections on specific issues, such as conservation challenges or the role of zoos in preserving biodiversity."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Problem-Solving Challanges:",
+        "text": "Present learners with open-ended problems to encourage critical thinking and reasoning. [National Research Council.(2012).?]"
+      },
+      {
+        "title": "Collaborative Learning:",
+        "text": "Facilitate group activities that promote discussion, argumentation, and justification of scientific ideas. [?]"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["scienceToolsAndLanguage"]
+      }
+    ],
+    "mainText": "Using the Tools and Language of Science",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Allow visitors to use actual scientific tools or engage with simulations that mimic real scientific equipment or procedures. This provides a hands-on understanding of how scientists gather data and study the natural world."
+      },
+      {
+        "title": "Implementation",
+        "text": "Provide binoculars, microscopes, or interactive touch screens that simulate scientific research tools for studying microhabitats, animal behavior, or plant biology within the zoo setting."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Interactive Exhibits and Demonstrations:",
+        "text": "Design interactive exhibits and demonstrations to familiarize learners with scientific tools and terminology.[?]"
+      },
+      {
+        "title": "Authentic Science Practices:",
+        "text": "Engage learners in activities that mirror the practices and language used by scientists in their field. [?]"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "questionId": "q6",
+        "values": ["sciencePerson"]
+      }
+    ],
+    "mainText": "Identifying with the Scientific Enterprise",
+    "titleAndTexts": [
+      {
+        "title": "Strategy",
+        "text": "Showcase careers in science, particularly in zoology, ecology, and conservation, to inspire visitors and help them see themselves as potential scientists. Introduce real scientists through meet-and-greet sessions or video presentations of their work."
+      },
+      {
+        "title": "Implementation",
+        "text": "Develop a 'scientist for a day' program where visitors, especially children, can follow zoo scientists and engage in daily tasks, gaining insight into the scientific work that goes on behind the scenes at a zoo."
+      },
+      {
+        "title": "Design Criterias based on additional literature:",
+        "text": ""
+      },
+      {
+        "title": "Role Models and Mentors:",
+        "text": " Introduce learners to diverse scientisits and role models to inspire a sense of belonging and potential in science.[?]"
+      },
+      {
+        "title": "Personal Connection to Science:",
+        "text": "Help learners recognize their own abilities and interests in science by relating concepts to their personal experiences.[?]"
+      }
+    ]
+  }
+]
