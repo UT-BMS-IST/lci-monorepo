@@ -14,24 +14,31 @@ import { TranslatePipe } from '@ngx-translate/core'
 })
 export class ProgressButtonsComponent {
   //use the inject syntax for the services
-  progressButtonsService = inject(ProgressButtonsService)
-  activatedRoute = inject(ActivatedRoute)
-  router = inject(Router)
+  progressButtonsService = inject(ProgressButtonsService);
+  activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
 
-  shouldShowPrevious$: Observable<boolean> = this.progressButtonsService.shouldShowPrevious()
-  shouldShowHome$: Observable<boolean> = this.progressButtonsService.shouldShowPrevious().pipe(map((show) => !show))
-  shouldShowNext$: Observable<boolean> = this.progressButtonsService.shouldShowNext()
-  shouldDisableNext$: Observable<boolean> = this.progressButtonsService.shouldDisableNext()
+  shouldShowPrevious$: Observable<boolean> =
+    this.progressButtonsService.shouldShowPrevious();
+  shouldShowHome$: Observable<boolean> = this.progressButtonsService
+    .shouldShowPrevious()
+    .pipe(map((show) => !show));
+  shouldShowNext$: Observable<boolean> =
+    this.progressButtonsService.shouldShowNext();
+  shouldShowRestart$: Observable<boolean> =
+    this.progressButtonsService.shouldShowRestart();
+  shouldDisableNext$: Observable<boolean> =
+    this.progressButtonsService.shouldDisableNext();
 
   goHome() {
-    this.router.navigate(['..'], { relativeTo: this.activatedRoute.parent })
+    this.router.navigate(['..'], { relativeTo: this.activatedRoute.parent });
   }
 
   nextStep() {
-    this.progressButtonsService.setNextClicked()
+    this.progressButtonsService.setNextClicked();
   }
 
   previousStep() {
-    this.progressButtonsService.setPreviousClicked()
+    this.progressButtonsService.setPreviousClicked();
   }
 }

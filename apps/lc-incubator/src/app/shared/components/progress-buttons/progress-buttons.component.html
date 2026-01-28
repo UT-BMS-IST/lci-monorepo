@@ -17,6 +17,11 @@
               color="primary"
               mat-raised-button> {{ "progressButtons.next" | translate }}
       </button>
+      <button (click)="nextStep()" *ngIf="this.shouldShowRestart$ |async"
+              class="progress-btn"
+              color="primary"
+              mat-raised-button> {{ "progressButtons.restart" | translate }}
+      </button>
     </div>
   </div>
 

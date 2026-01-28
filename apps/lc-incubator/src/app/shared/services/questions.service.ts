@@ -20,7 +20,6 @@ export class QuestionsService {
     .get<QuestionnaireStep[]>(this.questionsGistUrl)
     .pipe(
       catchError(() => of([])),
-      map((file) => file),
       shareReplay({ bufferSize: 1, refCount: true })
     );
   private currentStepSubject: BehaviorSubject<number> =

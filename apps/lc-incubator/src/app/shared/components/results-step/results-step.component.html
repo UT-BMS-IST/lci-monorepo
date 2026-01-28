@@ -1,5 +1,5 @@
 <div class="results-container">
-  <h2>Your Answers</h2>
+  <h2>{{'results.yourAnswers' | translate}}</h2>
   <div class="results-list">
     <div *ngFor="let result of results" class="result-card">
       <span class="result-question">{{ result.question }}</span>
@@ -10,11 +10,10 @@
 
   <h2> Results: </h2>
 
-<div *ngFor="let guideline of guidelines">
-  <div *ngIf="guideline.visible" class="guideline-wrapper">
-    <div class="main-text">{{ guideline.mainText }}</div>
-    <div *ngFor="let titleAndText of guideline.titleAndTexts">
-      <span><b>{{ titleAndText.title }}</b> {{ titleAndText.text }}</span>
+  <div *ngFor="let guideline of guidelines">
+    <div *ngIf="guideline.visible" class="guideline-wrapper">
+      <a class="main-text" href ="{{ guideline.url }}" > {{ guideline.url }} </a>
     </div>
   </div>
+
 </div>

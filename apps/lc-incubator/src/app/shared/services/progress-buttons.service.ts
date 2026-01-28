@@ -42,6 +42,13 @@ export class ProgressButtonsService {
     )
   }
 
+  shouldShowRestart() {
+    return this.questionsService.getSteps().pipe(
+      map((items) => items.length + 1), //+1 because of result step
+      switchMap((length) => this.questionsService.getCurrentStep().pipe(map((step) => step === length - 1))),
+    )
+  }
+
   shouldDisableNext() {
     return this.answerService.getAnswers().pipe(
       switchMap((answers) => {

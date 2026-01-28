@@ -16,6 +16,12 @@
   "progressButtons": {
     "next": "Volgende",
     "previous": "Vorige",
-    "backToHome": "Terug naar start"
+    "backToHome": "Terug naar start",
+    "restart": "Herstart"
+  },
+  "results": {
+    "yourAnswers": "Jouw antwoorden",
+    "yourResults": "Jouw resultaten",
+    "restart": "Herstart"
   }
 }

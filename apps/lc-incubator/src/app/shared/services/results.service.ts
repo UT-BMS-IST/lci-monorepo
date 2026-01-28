@@ -15,25 +15,24 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root',
 })
-export class GuidelinesService {
+export class ResultsService {
   answersService = inject(AnswerService);
   questionsService = inject(QuestionsService);
-  guidelinesGistUrl = `https://gist.githubusercontent.com/shantd9/ffda1deae1852eed15c2caf7a0231f83/raw/results.json?v=${Date.now()}`;
+  resultsGistUrl = `https://gist.githubusercontent.com/shantd9/ffda1deae1852eed15c2caf7a0231f83/raw/results.json?v=${Date.now()}`;
   private http = inject(HttpClient);
-  private allGuidelines$: Observable<SbsGuideline[]> = this.http
-    .get<SbsGuideline[]>(this.guidelinesGistUrl)
+  private allResults: Observable<LCResult[]> = this.http
+    .get<LCResult[]>(this.resultsGistUrl)
     .pipe(
       catchError(() => of([])),
-      map((file) => file),
       shareReplay({ bufferSize: 1, refCount: true })
     );
-  visibleGuidelines$ = combineLatest([
-    this.allGuidelines$,
+  visibleResults$ = combineLatest([
+    this.allResults,
     this.answersService.getAnswers(),
   ]).pipe(
-    map(([guidelines, answers]) => {
-      return guidelines.map((guideline) => {
-        const visible = guideline.conditions.every((condition) => {
+    map(([results, answers]) => {
+      return results.map((result) => {
+        const visible = result.conditions.every((condition) => {
           const answer = answers.find(
             (a) => a.questionId === condition.questionId
           );
@@ -50,15 +49,15 @@ export class GuidelinesService {
           }
           return answer;
         });
-        return { ...guideline, visible };
+        return { ...result, visible };
       });
     })
   );
 
   constructor() {
     //the below code is just used for testing purposes, it can be removed for production.
-    this.allGuidelines$.subscribe((guidelines) => {
-      const conditions = guidelines.flatMap((g) => g.conditions);
+    this.allResults.subscribe((results) => {
+      const conditions = results.flatMap((g) => g.conditions);
       this.questionsService.getFlattenedQuestions().subscribe((questions) => {
         conditions.forEach((condition) => {
           const question = questions.find((q) => q.id === condition.questionId);
@@ -100,18 +99,11 @@ export class GuidelinesService {
   }
 }
 
-export interface SbsGuideline {
-  // id: string
-  mainText?: string;
-  titleAndTexts: TitleAndText[];
+export interface LCResult {
   conditions: Answer[];
+  url: string
 }
 
-export interface TitleAndText {
-  title: string;
-  text: string;
-}
-
-export interface SbsGuidelineWithVisibility extends SbsGuideline {
+export interface LCResultWithVisibility extends LCResult {
   visible: boolean;
 }
