@@ -45,11 +45,15 @@ $width: 1000px;
           @include respond-to-max-height {
             margin: 2px;
           }
-
-          img {
-            cursor: pointer;
-            height: 80%;
+          a {
+            height: 100%;
+            margin: 0px 10px;
+            img {
+              cursor: pointer;
+              height: 80%;
+            }
           }
+
         }
 
         .toolbar-title {

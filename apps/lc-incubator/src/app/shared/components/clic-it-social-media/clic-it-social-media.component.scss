@@ -20,21 +20,6 @@ $reduced-icon-height: 50px;
     display: flex;
     gap: 10px;
     align-items: center;
-    flex: 1;
-
-    .social-media-icon {
-      width: $icon-height;
-      height: $icon-height;
-
-      @include respond-to-max-height {
-        width: $reduced-icon-height;
-        height: $reduced-icon-height;
-      }
-
-      img {
-        width: 100%;
-      }
-    }
   }
 
   .eu-text-wrapper {
@@ -45,13 +30,21 @@ $reduced-icon-height: 50px;
 
     .eu-text {
       font-size: 11px;
-      width: 446px;
     }
 
     .eu-image {
       height: $icon-height;
 
       @include respond-to-max-height {
+        height: $reduced-icon-height;
+      }
+    }
+    .social-media-icon {
+      width: $icon-height;
+      height: $icon-height;
+
+      @include respond-to-max-height {
+        width: $reduced-icon-height;
         height: $reduced-icon-height;
       }
     }

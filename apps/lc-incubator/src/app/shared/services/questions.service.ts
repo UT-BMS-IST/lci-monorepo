@@ -15,10 +15,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class QuestionsService {
   private http = inject(HttpClient);
+  questionsGistUrl = `https://gist.githubusercontent.com/shantd9/710aea7543e1358204a79a2a9699d5fb/raw/questions.json?v=${Date.now()}`;
   private questionnaireSteps$: Observable<QuestionnaireStep[]> = this.http
-    .get<QuestionnaireStep[]>('./assets/questions.json')
+    .get<QuestionnaireStep[]>(this.questionsGistUrl)
     .pipe(
-      catchError(() => (of([]))),
+      catchError(() => of([])),
       map((file) => file),
       shareReplay({ bufferSize: 1, refCount: true })
     );
@@ -30,7 +31,6 @@ export class QuestionsService {
 
   constructor() {
     this.flattenedQuestions.subscribe((questions) => {
-      console.log(questions);
       questions.forEach((question) => {
         if (question.condition) {
           const conditionQuestion = questions.find(

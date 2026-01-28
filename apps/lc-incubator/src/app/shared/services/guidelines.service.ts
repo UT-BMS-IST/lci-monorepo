@@ -18,9 +18,10 @@ import { HttpClient } from '@angular/common/http';
 export class GuidelinesService {
   answersService = inject(AnswerService);
   questionsService = inject(QuestionsService);
+  guidelinesGistUrl = `https://gist.githubusercontent.com/shantd9/ffda1deae1852eed15c2caf7a0231f83/raw/results.json?v=${Date.now()}`;
   private http = inject(HttpClient);
   private allGuidelines$: Observable<SbsGuideline[]> = this.http
-    .get<SbsGuideline[]>('./assets/guidelines.json')
+    .get<SbsGuideline[]>(this.guidelinesGistUrl)
     .pipe(
       catchError(() => of([])),
       map((file) => file),
