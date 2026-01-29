@@ -50,6 +50,8 @@
             label: "Bepalen welke activiteiten nodig zijn om de samenwerking tot stand te brengen of verbeteren"
             optionExplanation: "(Wat moet er wanneer gebeuren?)"
 
+- stepperTitle: ""
+  questions:
     - id: "q4"
       type: "radio"
       questionSubtitle: "Wat wil je dat de functie van het instrument is?"
