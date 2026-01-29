@@ -41,4 +41,8 @@ export class ProgressButtonsComponent {
   previousStep() {
     this.progressButtonsService.setPreviousClicked();
   }
+
+  restart() {
+    window.location.reload()
+  }
 }

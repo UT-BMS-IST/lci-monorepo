@@ -19,8 +19,14 @@
     padding-bottom: 10px;
 
     .title-text {
-      font-size: 3.4rem;
+      font-size: 4rem;
       font-weight: bold;
+      justify-self: center;
+    }
+
+    .subtitle-text {
+      justify-self: center;
+      font-size: 2rem;
     }
 
     .title-image {
