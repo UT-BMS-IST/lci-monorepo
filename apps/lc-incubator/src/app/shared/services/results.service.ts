@@ -20,7 +20,7 @@ import { load as yamlLoad } from 'js-yaml';
 export class ResultsService {
   answersService = inject(AnswerService);
   questionsService = inject(QuestionsService);
-  resultsYamlUrl = `results.yaml`;
+  resultsYamlUrl = `https://raw.githubusercontent.com/UT-BMS-IST/lci-monorepo/main/apps/lc-incubator/public/results.yaml`;
   private http = inject(HttpClient);
   private allResults: Observable<LCResult[]> = this.http
     .get(this.resultsYamlUrl, { responseType: 'text' })
@@ -57,7 +57,7 @@ export class ResultsService {
         });
         return { ...result, visible };
       });
-      return res
+      return res;
     })
   );
 
