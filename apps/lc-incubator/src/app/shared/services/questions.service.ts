@@ -9,17 +9,30 @@ import {
   tap,
 } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { load as yamlLoad } from 'js-yaml';
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuestionsService {
   private http = inject(HttpClient);
-  questionsGistUrl = `https://gist.githubusercontent.com/shantd9/710aea7543e1358204a79a2a9699d5fb/raw/questions.json?v=${Date.now()}`;
+  // questionsGistUrl = `https://gist.githubusercontent.com/shantd9/710aea7543e1358204a79a2a9699d5fb/raw/questions.json?v=${Date.now()}`;
+  // private questionnaireSteps$: Observable<QuestionnaireStep[]> = this.http
+  //   .get<QuestionnaireStep[]>(this.questionsGistUrl)
+  //   .pipe(
+  //     catchError(() => of([])),
+  //     shareReplay({ bufferSize: 1, refCount: true })
+  //   );
+  questionsYamlUrl =
+    'https://gist.githubusercontent.com/shantd9/f506f3eb894d57f7335a56a637a89975/raw/questions.yaml?v={Date.now()}';
   private questionnaireSteps$: Observable<QuestionnaireStep[]> = this.http
-    .get<QuestionnaireStep[]>(this.questionsGistUrl)
+    .get(this.questionsYamlUrl, { responseType: 'text' })
     .pipe(
-      catchError(() => of([])),
+      map((yamlText) => yamlLoad(yamlText) as QuestionnaireStep[]),
+      catchError((err) => {
+        console.error('Failed to load YAML', err);
+        return of([] as QuestionnaireStep[]);
+      }),
       shareReplay({ bufferSize: 1, refCount: true })
     );
   private currentStepSubject: BehaviorSubject<number> =
@@ -90,16 +103,12 @@ export class QuestionsService {
   }
 }
 
-export interface QuestionsFile {
-  questions: QuestionnaireStep[]
-}
-
 export interface QuestionnaireStep {
-  stepperTitle: string | null
-  title?: string
-  questionExplanation?: string
-  questions: Question[]
-  completed: boolean
+  stepperTitle: string | null;
+  questions: Question[];
+  title?: string;
+  questionExplanation?: string;
+  completed: boolean;
 }
 
 export interface Question {
@@ -109,8 +118,6 @@ export interface Question {
   questionSubtitle?: string
   condition?: QuestionCondition
   isHidden?: boolean
-  hiddenTitle?: boolean
-  color?: 'color1' | 'color2' | 'color3' | 'color4' | 'color5' | 'color6' //todo: add real colors
 }
 
 export interface QuestionCondition {
