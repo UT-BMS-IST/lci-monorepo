@@ -20,7 +20,7 @@ import { load as yamlLoad } from 'js-yaml';
 export class ResultsService {
   answersService = inject(AnswerService);
   questionsService = inject(QuestionsService);
-  resultsYamlUrl = `https://gist.githubusercontent.com/shantd9/ed7d29e26ec233f527d26f23d956a463/raw/results.yaml?v=${Date.now()}`;
+  resultsYamlUrl = `results.yaml`;
   private http = inject(HttpClient);
   private allResults: Observable<LCResult[]> = this.http
     .get(this.resultsYamlUrl, { responseType: 'text' })

@@ -1,0 +1,62 @@
+- stepperTitle: "Context"
+  questions:
+    - id: "q1"
+      type: "radio"
+      questionSubtitle: "Je wilt een Learning Community ontwikkelen. Deze zijn er in vele soorten en maten. Wat beschrijft het beste het type LC waarvoor je een instrument zoekt?"
+      configuration:
+        options:
+          - value: "network_hub"
+            label: "Een samenwerking die een groot maatschappelijk vraagstuk wil agenderen rondom een maatschappelijk thema. Experimenteren en realiseren van concrete innovaties wordt gestimuleerd, maar vindt hier niet plaats. Bijv. Netwerkorganisatie, Center of expertise, innovatiehub"
+
+          - value: "innovation_lab"
+            label: "Een meerjarige samenwerking die is ingericht om verschillende innovatievraagstukken uit te voeren.  Bijv. fieldlab, living lab, proeftuin, open innovatieteam."
+
+          - value: "internal_project"
+            label: "Een tijdelijke samenwerking waarbij  één organisatie hulp inroept om een intern vraagstuk centraal staat om de dagelijkse of toekomstige werkpraktijk te verbeteren. Bijv. …"
+
+    - id: "q2"
+      type: "radio"
+      questionSubtitle: "Wat beschrijft jouw rol het beste in relatie tot de Learning Community die je wilt (helpen) ontwikkelen?"
+      configuration:
+        options:
+          - value: "orchestrator"
+            label: "Ik neem vooral de rol als ‘orkestreerder’ op mij. Ik ben betrokken bij het initiëren of ontwikkelen van een Learning Community (LC) waarvoor ik verantwoordelijkheid neem. "
+
+          - value: "facilitator"
+            label: "Ik neem vooral de rol van ‘facilitator’ op mij. Ik ben betrokken om ‘orkestreerders’ en hun team te helpen hun LC te initiëren of ontwikkelen. "
+
+- stepperTitle: "Doel"
+  questions:
+    - id: "q3"
+      type: "radio"
+      questionSubtitle: "Waar wil je met het instrument aan werken?"
+      configuration:
+        options:
+          - value: "ambition_and_strategy"
+            label: "Ambitie, motieven, visie en/of strategische richting van de samenwerking"
+            optionExplanation: "(Waarom samenwerken?)"
+
+          - value: "collaboration_design"
+            label: "(Her)ontwerpen van de organisatie om samen te werken"
+            optionExplanation: "(Hoe is de samenwerking ingericht?)"
+
+          - value: "value_and_impact"
+            label: "Waarde, impact en/of evaluatie realiseren of laten zien"
+            optionExplanation: "(Wat moet er wanneer gebeuren?)"
+
+          - value: "required_activities"
+            label: "Bepalen welke activiteiten nodig zijn om de samenwerking tot stand te brengen of verbeteren"
+            optionExplanation: "(Wat moet er wanneer gebeuren?)"
+
+    - id: "q4"
+      type: "radio"
+      questionSubtitle: "Wat wil je dat de functie van het instrument is?"
+      configuration:
+        options:
+          - value: "representing"
+            label: "Representeren"
+            optionExplanation: "Raamwerk / Praatplaat"
+
+          - value: "getStarted"
+            label: "Aan de slag gaan"
+            optionExplanation: "Invulbaar Template / Game / App"

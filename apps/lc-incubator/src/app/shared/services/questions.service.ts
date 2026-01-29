@@ -24,7 +24,7 @@ export class QuestionsService {
   //     shareReplay({ bufferSize: 1, refCount: true })
   //   );
   questionsYamlUrl =
-    `https://gist.githubusercontent.com/shantd9/f506f3eb894d57f7335a56a637a89975/raw/questions.yaml?v=${Date.now()}`;
+    `questions.yaml`;
   private questionnaireSteps$: Observable<QuestionnaireStep[]> = this.http
     .get(this.questionsYamlUrl, { responseType: 'text' })
     .pipe(

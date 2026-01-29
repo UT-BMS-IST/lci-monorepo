@@ -1,0 +1,481 @@
+---
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/orchestrator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/orchestrator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/orchestrator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/orchestrator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/orchestrator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/orchestrator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/orchestrator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/orchestrator/required_activities/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/facilitator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/facilitator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/facilitator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/facilitator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/facilitator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/facilitator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/network_hub/facilitator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: network_hub
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/network_hub/facilitator/required_activities/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/orchestrator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/orchestrator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/orchestrator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/orchestrator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/orchestrator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/orchestrator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/orchestrator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/orchestrator/required_activities/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/facilitator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/facilitator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/facilitator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/facilitator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/facilitator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/facilitator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/innovation_lab/facilitator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: innovation_lab
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/innovation_lab/facilitator/required_activities/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/orchestrator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/orchestrator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/orchestrator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/orchestrator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/orchestrator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/orchestrator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/orchestrator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: orchestrator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/orchestrator/required_activities/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/facilitator/ambition_and_strategy/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: ambition_and_strategy
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/facilitator/ambition_and_strategy/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/facilitator/collaboration_design/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: collaboration_design
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/facilitator/collaboration_design/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/facilitator/value_and_impact/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: value_and_impact
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/facilitator/value_and_impact/getStarted
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: representing
+  url: https://example.com/internal_project/facilitator/required_activities/representing
+- conditions:
+    - questionId: q1
+      value: internal_project
+    - questionId: q2
+      value: facilitator
+    - questionId: q3
+      value: required_activities
+    - questionId: q4
+      value: getStarted
+  url: https://example.com/internal_project/facilitator/required_activities/getStarted
