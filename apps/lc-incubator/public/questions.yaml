@@ -1,4 +1,4 @@
-- stepperTitle: "Context"
+- stepperTitle: ""
   questions:
     - id: "q1"
       type: "radio"
@@ -14,6 +14,8 @@
           - value: "internal_project"
             label: "Een tijdelijke samenwerking waarbij  één organisatie hulp inroept om een intern vraagstuk centraal staat om de dagelijkse of toekomstige werkpraktijk te verbeteren. Bijv. …"
 
+- stepperTitle: ""
+  questions:
     - id: "q2"
       type: "radio"
       questionSubtitle: "Wat beschrijft jouw rol het beste in relatie tot de Learning Community die je wilt (helpen) ontwikkelen?"
@@ -25,7 +27,7 @@
           - value: "facilitator"
             label: "Ik neem vooral de rol van ‘facilitator’ op mij. Ik ben betrokken om ‘orkestreerders’ en hun team te helpen hun LC te initiëren of ontwikkelen. "
 
-- stepperTitle: "Doel"
+- stepperTitle: ""
   questions:
     - id: "q3"
       type: "radio"
@@ -59,4 +61,4 @@
 
           - value: "getStarted"
             label: "Aan de slag gaan"
-            optionExplanation: "Invulbaar Template / App"
+            optionExplanation: "Invulbaar Template / App / Game"
