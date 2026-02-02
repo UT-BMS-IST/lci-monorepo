@@ -3,7 +3,7 @@ import { map, switchMap } from 'rxjs'
 import { Answer, AnswerService } from '../../services/answer.service'
 import { QuestionsService } from '../../services/questions.service'
 import { ResultsService, LCResultWithVisibility } from '../../services/results.service'
-import { NgForOf, NgIf } from '@angular/common'
+import { NgForOf, NgIf, SlicePipe } from '@angular/common'
 import { MatButton } from '@angular/material/button';
 import { TranslatePipe } from '@ngx-translate/core';
 
@@ -11,7 +11,7 @@ import { TranslatePipe } from '@ngx-translate/core';
   selector: 'app-results-step',
   templateUrl: './results-step.component.html',
   styleUrls: ['./results-step.component.scss'],
-  imports: [NgForOf, NgIf, TranslatePipe],
+  imports: [NgForOf, NgIf, TranslatePipe, SlicePipe],
 })
 export class ResultsStepComponent implements OnInit {
   answerService = inject(AnswerService);
@@ -20,7 +20,11 @@ export class ResultsStepComponent implements OnInit {
 
   results: Result[] = [];
   guidelines: LCResultWithVisibility[] = [];
+  expanded: boolean[] = [];
 
+  toggleExpand(index: number) {
+    this.expanded[index] = !this.expanded[index];
+  }
   ngOnInit() {
     this.answerService
       .getAnswers()
@@ -79,7 +83,6 @@ export class ResultsStepComponent implements OnInit {
       this.guidelines = guidelines;
     });
   }
-
 }
 
 export interface Result {

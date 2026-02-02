@@ -66,3 +66,16 @@ h2 {
   font-size: 1.2em;
   margin: 10px 0px;
 }
+
+.show-more-link {
+  margin-top: 8px;
+  font-size: 14px;
+  color: booster-colors.$lc-blue;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+
+  &:hover {
+    color: darken(booster-colors.$lc-blue, 10%);
+  }
+}
