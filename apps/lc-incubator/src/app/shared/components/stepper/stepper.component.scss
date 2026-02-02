@@ -8,7 +8,6 @@ mat-stepper {
   height: 100%;
   width: 100%;
 
-
   ::ng-deep {
     .mat-horizontal-stepper-wrapper {
       height: 100%;
@@ -20,9 +19,9 @@ mat-stepper {
       }
     }
 
-    //.mat-step-label {
-    //  display: none;
-    //}
+    .mat-step-label {
+      display: none;
+    }
 
     //the below 2 are problematic (these changed in the new material, they don't match the booster 100%)
     .mat-horizontal-stepper-content-current {
@@ -32,6 +31,10 @@ mat-stepper {
     //.mat-horizontal-stepper-content-next {
     //  height: 0px;
     //}
+
+    .mat-step-icon {
+      margin: 0
+    }
 
     //
     .mat-horizontal-content-container {
@@ -90,3 +93,6 @@ mat-stepper {
   }
 
 }
+
+
+

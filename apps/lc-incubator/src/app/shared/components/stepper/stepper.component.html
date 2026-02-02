@@ -2,7 +2,7 @@
              *ngIf="this.configuration$ | async as configuration"
              [selectedIndex]="selectedIndex$ | async" linear="false">
   <mat-step *ngFor="let step of configuration; let i = index" [completed]="step.completed">
-    <ng-template matStepLabel>{{ step.stepperTitle }}</ng-template>
+<!--    <ng-template matStepLabel>{{ step.stepperTitle }}</ng-template>-->
     <ng-template matStepContent>
       <div class="mat-step-content-wrapper">
         <div class="app-question-title-wrapper">
@@ -28,7 +28,7 @@
 <!--    <ng-template matStepLabel>{{ "" }}</ng-template>-->
     <ng-template matStepContent>
       <div class="mat-step-content-wrapper">
-        <app-results-step></app-results-step>
+        <app-your-answers-step></app-your-answers-step>
       </div>
     </ng-template>
 
@@ -36,7 +36,7 @@
   <mat-step>
     <ng-template matStepContent>
       <div class="mat-step-content-wrapper">
-        <app-your-answers-step></app-your-answers-step>
+        <app-your-results-step></app-your-results-step>
       </div>
     </ng-template>
   </mat-step>

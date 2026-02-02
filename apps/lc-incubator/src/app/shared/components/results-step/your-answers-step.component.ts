@@ -1,19 +1,21 @@
-import { Component, inject, OnInit } from '@angular/core'
-import { map, switchMap } from 'rxjs'
-import { Answer, AnswerService } from '../../services/answer.service'
-import { QuestionsService } from '../../services/questions.service'
-import { ResultsService, LCResultWithVisibility } from '../../services/results.service'
-import { NgForOf, NgIf, SlicePipe } from '@angular/common'
-import { MatButton } from '@angular/material/button';
+import { Component, inject, OnInit } from '@angular/core';
+import { map, switchMap } from 'rxjs';
+import { Answer, AnswerService } from '../../services/answer.service';
+import { QuestionsService } from '../../services/questions.service';
+import {
+  ResultsService,
+  LCResultWithVisibility,
+} from '../../services/results.service';
+import { NgForOf, NgIf, SlicePipe } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-results-step',
-  templateUrl: './results-step.component.html',
-  styleUrls: ['./results-step.component.scss'],
+  selector: 'app-your-answers-step',
+  templateUrl: './your-answers-step.component.html',
+  styleUrls: ['./your-answers-step.component.scss'],
   imports: [NgForOf, NgIf, TranslatePipe, SlicePipe],
 })
-export class ResultsStepComponent implements OnInit {
+export class YourAnswersStepComponent implements OnInit {
   answerService = inject(AnswerService);
   questionsService = inject(QuestionsService);
   guidelinesService = inject(ResultsService);
@@ -86,6 +88,6 @@ export class ResultsStepComponent implements OnInit {
 }
 
 export interface Result {
-  question: string
-  answer: string
+  question: string;
+  answer: string;
 }

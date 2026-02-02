@@ -10,12 +10,12 @@ import { NgForOf, NgIf } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-your-answers-step',
-  templateUrl: './your-answers-step.component.html',
-  styleUrls: ['./your-answers-step.component.scss'],
+  selector: 'app-your-results-step',
+  templateUrl: './your-results-step.component.html',
+  styleUrls: ['./your-results-step.component.scss'],
   imports: [NgForOf, NgIf, TranslatePipe],
 })
-export class YourAnswersStepComponent implements OnInit {
+export class YourResultsStepComponent implements OnInit {
   answerService = inject(AnswerService);
   questionsService = inject(QuestionsService);
   guidelinesService = inject(ResultsService);
@@ -24,9 +24,6 @@ export class YourAnswersStepComponent implements OnInit {
   guidelines: LCResultWithVisibility[] = [];
   expanded: boolean[] = [];
 
-  toggleExpand(index: number) {
-    this.expanded[index] = !this.expanded[index];
-  }
   ngOnInit() {
     this.answerService
       .getAnswers()
