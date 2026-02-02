@@ -19,7 +19,7 @@ import { ProgressButtonsService } from '../../services/progress-buttons.service'
 import { AnswerService } from '../../services/answer.service';
 import { QuestionTitleComponent } from '../question-wrapper/question-title/question-title.component';
 import { QuestionWrapperComponent } from '../question-wrapper/question-wrapper.component';
-import { YourAnswersStepComponent } from '../results-step/your-answers-step.component';
+import { YourAnswersStepComponent } from '../your-answers-step/your-answers-step.component';
 import { YourResultsStepComponent } from '../your-results-step/your-results-step.component';
 
 @Component({

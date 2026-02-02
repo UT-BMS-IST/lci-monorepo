@@ -55,18 +55,6 @@ h2 {
   font-weight: normal;
 }
 
-.guideline-wrapper {
-  //border: 1px solid black;
-  //border-radius: 10px; // Simplified from individual properties
-  //margin: 10px 0px;
-  //padding: 10px;
-}
-
-.main-text {
-  font-size: 1.2em;
-  margin: 10px 0px;
-}
-
 .show-more-link {
   margin-top: 8px;
   font-size: 14px;
@@ -74,8 +62,4 @@ h2 {
   cursor: pointer;
   text-decoration: underline;
   display: inline-block;
-
-  &:hover {
-    color: darken(booster-colors.$lc-blue, 10%);
-  }
 }

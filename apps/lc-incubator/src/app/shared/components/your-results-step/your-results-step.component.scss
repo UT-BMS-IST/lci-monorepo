@@ -2,11 +2,7 @@
 @use '../../../../../src/assets/css/booster-colors' as booster-colors;
 
 $primary-text-color: #333;
-$secondary-text-color: #555;
-$card-background: #fff;
 $container-background: #f7f9fc;
-$card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-$border-radius: 8px;
 
 // Styles
 .results-container {
@@ -19,63 +15,4 @@ h2 {
   font-size: 24px;
   color: $primary-text-color;
   margin-bottom: 20px;
-}
-
-.results-list {
-  display: grid;
-  gap: 16px;
-}
-
-.result-card {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  background-color: $card-background;
-  border-radius: $border-radius;
-  box-shadow: $card-shadow;
-  border-left: 4px solid booster-colors.$lc-blue;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  }
-}
-
-.result-question {
-  font-size: 18px;
-  font-weight: bold;
-  color: $primary-text-color;
-  margin-bottom: 8px;
-}
-
-.result-answer {
-  font-size: 16px;
-  color: $secondary-text-color;
-  font-weight: normal;
-}
-
-.guideline-wrapper {
-  //border: 1px solid black;
-  //border-radius: 10px; // Simplified from individual properties
-  //margin: 10px 0px;
-  //padding: 10px;
-}
-
-.main-text {
-  font-size: 1.2em;
-  margin: 10px 0px;
-}
-
-.show-more-link {
-  margin-top: 8px;
-  font-size: 14px;
-  color: booster-colors.$lc-blue;
-  cursor: pointer;
-  text-decoration: underline;
-  display: inline-block;
-
-  &:hover {
-    color: darken(booster-colors.$lc-blue, 10%);
-  }
 }
