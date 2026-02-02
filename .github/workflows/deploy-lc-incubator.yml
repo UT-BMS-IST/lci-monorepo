@@ -6,22 +6,22 @@ permissions:
   actions: write
 
 on:
-  workflow_dispatch:
-    inputs:
-      target_runner:
-        description: "Select Runner (test-runner or prod-runner)"
-        required: true
-        type: choice
-        options:
-          - test-runner
-          - prod-runner
-        default: test-runner
-  workflow_call:
-    inputs:
-      target_runner:
-        description: "Select Runner"
-        required: true
-        type: string
+#  workflow_dispatch:
+#    inputs:
+#      target_runner:
+#        description: "Select Runner (test-runner or prod-runner)"
+#        required: true
+#        type: choice
+#        options:
+#          - test-runner
+#          - prod-runner
+#        default: test-runner
+#  workflow_call:
+#    inputs:
+#      target_runner:
+#        description: "Select Runner"
+#        required: true
+#        type: string
 env:
   General_Timeout_Minutes: 15
 
