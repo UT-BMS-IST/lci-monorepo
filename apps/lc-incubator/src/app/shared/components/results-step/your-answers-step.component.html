@@ -2,19 +2,16 @@
   <h2>{{'results.yourAnswers' | translate}}</h2>
   <div class="results-list">
     <div *ngFor="let result of results; let i = index" class="result-card">
-      <!-- Question -->
       <span class="result-question">
     {{ expanded[i] ? result.question : (result.question | slice:0:90) }}
         {{ result.question.length > 90 && !expanded[i] ? '...' : '' }}
   </span>
 
-      <!-- Answer -->
       <span class="result-answer">
     {{ expanded[i] ? result.answer : (result.answer | slice:0:90) }}
         {{ result.answer.length > 90 && !expanded[i] ? '...' : '' }}
   </span>
 
-      <!-- Show More Button -->
       <a
         *ngIf="result.question.length > 90 || result.answer.length > 90"
         class="show-more-link"
