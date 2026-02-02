@@ -8,12 +8,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { StepperSelectionEvent } from '@angular/cdk/stepper';
-import {
-  MatStep,
-  MatStepContent,
-  MatStepLabel,
-  MatStepper,
-} from '@angular/material/stepper';
+import { MatStep, MatStepContent, MatStepper } from '@angular/material/stepper';
 import { map, Observable, of, Subject, switchMap, takeUntil } from 'rxjs';
 import {
   QuestionnaireStep,
@@ -40,7 +35,6 @@ import { YourResultsStepComponent } from '../your-results-step/your-results-step
     NgForOf,
     QuestionTitleComponent,
     QuestionWrapperComponent,
-    MatStepLabel,
     YourAnswersStepComponent,
     YourResultsStepComponent,
   ],
