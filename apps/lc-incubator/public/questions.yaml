@@ -1,5 +1,4 @@
-- stepperTitle: ""
-  questions:
+- questions:
     - id: "q1"
       type: "radio"
       questionSubtitle: "Je wilt een Learning Community ontwikkelen. Deze zijn er in vele soorten en maten. Wat beschrijft het beste het type LC waarvoor je een instrument zoekt?"
@@ -14,8 +13,7 @@
           - value: "internal_project"
             label: "Een tijdelijke samenwerking waarbij  één organisatie hulp inroept om een intern vraagstuk centraal staat om de dagelijkse of toekomstige werkpraktijk te verbeteren. Bijv. …"
 
-- stepperTitle: ""
-  questions:
+- questions:
     - id: "q2"
       type: "radio"
       questionSubtitle: "Wat beschrijft jouw rol het beste in relatie tot de Learning Community die je wilt (helpen) ontwikkelen?"
@@ -27,8 +25,7 @@
           - value: "facilitator"
             label: "Ik neem vooral de rol van ‘facilitator’ op mij. Ik ben betrokken om ‘orkestreerders’ en hun team te helpen hun LC te initiëren of ontwikkelen. "
 
-- stepperTitle: ""
-  questions:
+- questions:
     - id: "q3"
       type: "radio"
       questionSubtitle: "Waar wil je met het instrument aan werken?"
@@ -50,8 +47,7 @@
             label: "Bepalen welke activiteiten nodig zijn om de samenwerking tot stand te brengen of verbeteren"
             optionExplanation: "(Wat moet er wanneer gebeuren?)"
 
-- stepperTitle: ""
-  questions:
+- questions:
     - id: "q4"
       type: "radio"
       questionSubtitle: "Wat wil je dat de functie van het instrument is?"
