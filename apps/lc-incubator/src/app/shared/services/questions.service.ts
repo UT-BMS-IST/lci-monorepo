@@ -103,7 +103,6 @@ export class QuestionsService {
 }
 
 export interface QuestionnaireStep {
-  stepperTitle: string | null;
   questions: Question[];
   title?: string;
   questionExplanation?: string;
@@ -111,27 +110,27 @@ export interface QuestionnaireStep {
 }
 
 export interface Question {
-  id: string
-  type: 'text' | 'radio' | 'checkbox'
-  configuration: QuestionConfiguration
-  questionSubtitle?: string
-  condition?: QuestionCondition
-  isHidden?: boolean
+  id: string;
+  type: 'text' | 'radio' | 'checkbox';
+  configuration: QuestionConfiguration;
+  questionSubtitle?: string;
+  condition?: QuestionCondition;
+  isHidden?: boolean;
 }
 
 export interface QuestionCondition {
-  id: string //id of the question which is the condition
-  value: string[] //possible values which will trigger the condition
+  id: string; //id of the question which is the condition
+  value: string[]; //possible values which will trigger the condition
 }
 
 export interface QuestionConfiguration {
-  options?: QuestionOption[]
+  options?: QuestionOption[];
 }
 
 export interface QuestionOption {
-  value: string
-  label: string
-  optionExplanation?: string
-  iconUrl?: string
-  color?: 'color1' | 'color2' | 'color3' | 'color4' | 'color5' | 'color6' //todo: add real colors
+  value: string;
+  label: string;
+  optionExplanation?: string;
+  iconUrl?: string;
+  color?: 'color1' | 'color2' | 'color3' | 'color4' | 'color5' | 'color6'; //todo: add real colors
 }

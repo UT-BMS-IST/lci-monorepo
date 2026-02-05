@@ -2,7 +2,6 @@
              *ngIf="this.configuration$ | async as configuration"
              [selectedIndex]="selectedIndex$ | async" linear="false">
   <mat-step *ngFor="let step of configuration; let i = index" [completed]="step.completed">
-<!--    <ng-template matStepLabel>{{ step.stepperTitle }}</ng-template>-->
     <ng-template matStepContent>
       <div class="mat-step-content-wrapper">
         <div class="app-question-title-wrapper">
