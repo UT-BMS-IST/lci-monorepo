@@ -8,7 +8,7 @@
       value: ambition_and_strategy
     - questionId: q4
       value: representing
-  url: https://example.com/network_hub/orchestrator/ambition_and_strategy/representing
+  url: https://google.com/
 - conditions:
     - questionId: q1
       value: network_hub
