@@ -2,7 +2,7 @@
   <h2>{{'results.yourResults' | translate}}</h2>
   <div *ngFor="let guideline of guidelines">
     <div *ngIf="guideline.visible" class="guideline-wrapper">
-      <a class="main-text" href ="{{ guideline.url }}" > {{ guideline.url }} </a>
+      <a class="main-text" target="_blank" href ="{{ guideline.url }}" > {{ guideline.url }} </a>
     </div>
   </div>
   <span> {{'results.explainResults' | translate}}</span>
