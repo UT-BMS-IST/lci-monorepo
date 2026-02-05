@@ -1,5 +1,5 @@
-@use '../../../../../../src/assets/css/variables.scss' as booster-variables;
-@use '../../../../../../src/assets/css/booster-colors' as booster-colors;
+@use '../../../../../../src/assets/css/variables.scss' as clicit-variables;
+@use '../../../../../../src/assets/css/clicit-colors' as clicit-colors;
 
 .wrap {
   display: inline-flex;
@@ -13,7 +13,7 @@
 
 
   &.with-border {
-    border: 3px solid booster-colors.$lc-blue;
+    border: 3px solid clicit-colors.$lc-blue;
     border-radius: 20px;
   }
 
@@ -50,7 +50,7 @@
   .left {
     height: 100px;
     padding: 5px;
-    @include booster-variables.respond-to-max-height {
+    @include clicit-variables.respond-to-max-height {
       height: 50px;
     }
   }
@@ -67,14 +67,14 @@
     display: flex;
     align-items: flex-end;
 
-    @include booster-variables.respond-to-max-height {
+    @include clicit-variables.respond-to-max-height {
       height: 50px;
     }
   }
 
   .question-title-img {
     height: 75px;
-    @include booster-variables.respond-to-max-height {
+    @include clicit-variables.respond-to-max-height {
       height: 50px;
     }
   }

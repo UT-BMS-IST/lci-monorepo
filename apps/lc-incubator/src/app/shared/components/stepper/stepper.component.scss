@@ -1,5 +1,5 @@
-@use '../../../../../src/assets/css/booster-colors' as booster-colors;
-@use '../../../../../src/assets/css/variables.scss' as booster-variables;
+@use '../../../../../src/assets/css/clicit-colors' as clicit-colors;
+@use '../../../../../src/assets/css/variables.scss' as clicit-variables;
 
 mat-stepper {
   //background-color: rebeccapurple;
@@ -14,7 +14,7 @@ mat-stepper {
     }
 
     .mat-step-header {
-      @include booster-variables.respond-to-max-height {
+      @include clicit-variables.respond-to-max-height {
         height: 50px;
       }
     }
@@ -23,7 +23,7 @@ mat-stepper {
       display: none;
     }
 
-    //the below 2 are problematic (these changed in the new material, they don't match the booster 100%)
+    //the below 2 are problematic (these changed in the new material, they don't match the clicit 100%)
     .mat-horizontal-stepper-content-current {
       height: 100%;
     }
@@ -54,7 +54,7 @@ mat-stepper {
   gap: 15px;
   height: 100%;
   overflow-y: auto;
-  @include booster-variables.respond-to-max-height {
+  @include clicit-variables.respond-to-max-height {
     max-height: 530px;
   }
 }
@@ -63,7 +63,7 @@ mat-stepper {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 3px solid booster-colors.$lc-blue;
+  border: 3px solid clicit-colors.$lc-blue;
   border-radius: 20px;
   flex: 1;
   //@include respond-to-max-height {
@@ -87,7 +87,7 @@ mat-stepper {
 
   &.single {
     overflow-y: auto;
-    @include booster-variables.respond-to-max-height() {
+    @include clicit-variables.respond-to-max-height() {
       height: 100%;
     }
   }

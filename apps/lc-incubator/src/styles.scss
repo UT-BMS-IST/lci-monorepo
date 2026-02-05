@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @use '@angular/material' as mat;
 //@use 'libs/angular/angular-common/src/lib/styles/golab/golab-theme' as golab-theme;
-@use '../src/assets/css/booster-theme' as booster-theme;
+@use '../src/assets/css/clicit-theme' as clicit-theme;
 
 @include mat.core();
 
-@include mat.all-component-themes(booster-theme.$booster-theme);
+@include mat.all-component-themes(clicit-theme.$clicit-theme);
 
 @import '../src/assets/css/variables.scss';
 

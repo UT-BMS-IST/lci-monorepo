@@ -7,8 +7,8 @@
 $dark-primary-text: rgba(black, 0.87);
 $light-primary-text: white;
 
-// Custom primary color palette for Booster
-$booster-primary-palette: (
+// Custom primary color palette for Clicit
+$clicit-primary-palette: (
   50: #e8e7f4,
   100: #c5c3e4,
   200: #9e9cd4,
@@ -34,16 +34,16 @@ $booster-primary-palette: (
 );
 
 // Define the palettes using the M2 functions
-$booster-primary: mat.m2-define-palette($booster-primary-palette, 500);
-$booster-accent: mat.m2-define-palette(mat.$m2-blue-palette, 500);
-$booster-warn: mat.m2-define-palette(mat.$m2-red-palette, 500);
+$clicit-primary: mat.m2-define-palette($clicit-primary-palette, 500);
+$clicit-accent: mat.m2-define-palette(mat.$m2-blue-palette, 500);
+$clicit-warn: mat.m2-define-palette(mat.$m2-red-palette, 500);
 
 // Define the theme using the M2 function
-$booster-theme: mat.m2-define-light-theme((
+$clicit-theme: mat.m2-define-light-theme((
   color: (
-    primary: $booster-primary,
-    accent: $booster-accent,
-    warn: $booster-warn,
+    primary: $clicit-primary,
+    accent: $clicit-accent,
+    warn: $clicit-warn,
   ),
   typography: mat.m2-define-typography-config(
     $button: mat.m2-define-typography-level(0.85rem, 1rem, 800, $letter-spacing: normal)
