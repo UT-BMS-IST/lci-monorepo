@@ -23,7 +23,7 @@ export class QuestionsService {
   //     catchError(() => of([])),
   //     shareReplay({ bufferSize: 1, refCount: true })
   //   );
-  questionsYamlUrl = `https://raw.githubusercontent.com/UT-BMS-IST/lci-monorepo/main/apps/lc-incubator/public/questions.yaml`;
+  questionsYamlUrl = `questions.yaml`;
   private questionnaireSteps$: Observable<QuestionnaireStep[]> = this.http
     .get(this.questionsYamlUrl, { responseType: 'text' })
     .pipe(

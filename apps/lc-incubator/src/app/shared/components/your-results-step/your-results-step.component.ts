@@ -1,86 +1,93 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { map, switchMap } from 'rxjs';
+import { combineLatest, map } from 'rxjs';
 import { Answer, AnswerService } from '../../services/answer.service';
-import { QuestionsService } from '../../services/questions.service';
-import {
-  ResultsService,
-  LCResultWithVisibility,
-} from '../../services/results.service';
-import { NgForOf, NgIf } from '@angular/common';
-import { TranslatePipe } from '@ngx-translate/core';
+import { Question, QuestionsService } from '../../services/questions.service';
+import { NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-your-results-step',
   templateUrl: './your-results-step.component.html',
   styleUrls: ['./your-results-step.component.scss'],
-  imports: [NgForOf, NgIf, TranslatePipe],
+  imports: [NgForOf],
 })
 export class YourResultsStepComponent implements OnInit {
   answerService = inject(AnswerService);
   questionsService = inject(QuestionsService);
-  guidelinesService = inject(ResultsService);
 
   results: Result[] = [];
-  guidelines: LCResultWithVisibility[] = [];
-  expanded: boolean[] = [];
+  routeCode = '...';
+  routePageUrl = 'https://publish.obsidian.md/lci/Routepagina';
 
   ngOnInit() {
-    this.answerService
-      .getAnswers()
+    combineLatest([
+      this.answerService.getAnswers(),
+      this.questionsService.getSteps(),
+    ])
       .pipe(
-        switchMap((answers) => {
-          return this.questionsService.getSteps().pipe(
-            map((steps) => {
-              const allQuestions = steps.flatMap((step) => step.questions);
-              this.results = [];
-              allQuestions.forEach((question) => {
-                const answer = answers.find(
-                  (answer: Answer) => answer.questionId === question.id
-                );
-                let answerText = '';
-                if (question.type == 'checkbox') {
-                  answerText = this.questionsService.getLabelForValues(
-                    question,
-                    answer?.values
-                  );
-                } else {
-                  answerText = this.questionsService.getLabelForValue(
-                    question,
-                    answer?.value
-                  );
-                }
-                if (!question.isHidden) {
-                  //probably fix the code below
-                  const currentStep = steps.find((step) =>
-                    step.questions.includes(question)
-                  );
-                  if (question.questionSubtitle) {
-                    this.results.push({
-                      question: question.questionSubtitle,
-                      answer: answerText,
-                    });
-                  } else {
-                    this.results.push({
-                      question: currentStep?.title || '',
-                      answer: answerText,
-                    });
-                  }
-                }
-              });
-              console.log(this.results);
+        map(([answers, steps]) => {
+          const allQuestions = steps.flatMap((step) => step.questions);
+          this.results = allQuestions
+            .filter((question) => this.isQuestionVisible(question, answers))
+            .map((question) => {
+              const answer = answers.find((a) => a.questionId === question.id);
+              const answerText =
+                question.type === 'checkbox'
+                  ? this.questionsService.getLabelForValues(
+                      question,
+                      answer?.values
+                    )
+                  : this.questionsService.getLabelForValue(
+                      question,
+                      answer?.value
+                    );
 
-              return steps;
-            })
-          );
+              return {
+                question: question.questionSubtitle || '',
+                answer: answerText,
+              };
+            });
+
+          this.routeCode = this.buildRouteCode(answers);
         })
       )
-      .subscribe((x) => {
-        // console.log(x)
-      });
+      .subscribe();
+  }
 
-    this.guidelinesService.visibleResults$.subscribe((guidelines) => {
-      this.guidelines = guidelines;
-    });
+  private isQuestionVisible(question: Question, answers: Answer[]): boolean {
+    if (!question.condition) {
+      return true;
+    }
+
+    const conditionAnswer = answers.find(
+      (answer) => answer.questionId === question.condition?.id
+    );
+
+    if (conditionAnswer?.value) {
+      return question.condition.value.includes(conditionAnswer.value);
+    }
+
+    if (conditionAnswer?.values) {
+      return conditionAnswer.values.some((value) =>
+        question.condition?.value.includes(value)
+      );
+    }
+
+    return false;
+  }
+
+  private buildRouteCode(answers: Answer[]): string {
+    const route = answers.find((answer) => answer.questionId === 'route')?.value;
+    const scenario = answers.find(
+      (answer) => answer.questionId === `scenario_${route?.toLowerCase()}`
+    )?.value;
+    const audience = answers.find((answer) => answer.questionId === 'audience')
+      ?.value;
+
+    if (!route || !scenario || !audience) {
+      return '...';
+    }
+
+    return `${route}${scenario}${audience}`;
   }
 }
 

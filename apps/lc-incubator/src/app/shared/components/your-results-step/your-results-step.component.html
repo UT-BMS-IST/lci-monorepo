@@ -1,9 +1,27 @@
 <div class="results-container">
-  <h2>{{'results.yourResults' | translate}}</h2>
-  <div *ngFor="let guideline of guidelines">
-    <div *ngIf="guideline.visible" class="guideline-wrapper">
-      <a class="main-text" target="_blank" href ="{{ guideline.url }}" > {{ guideline.url }} </a>
+  <section class="answers-section">
+    <h2>Je antwoorden zijn:</h2>
+
+    <div class="answers-list">
+      <div *ngFor="let result of results" class="answer-row">
+        <span class="answer-question">{{ result.question }}</span>
+        <span class="answer-value">{{ result.answer }}</span>
+      </div>
     </div>
-  </div>
-  <span> {{'results.explainResults' | translate}}</span>
+  </section>
+
+  <section class="code-section">
+    <h2>De code is: <span class="route-code">{{ routeCode }}</span></h2>
+    <p>
+      Deze code heb je nodig om naar de juiste pagina in de LC Incubator te gaan.
+      Noteer de code en klik vervolgens op de onderstaande knop.
+    </p>
+
+    <a
+      [href]="routePageUrl"
+      class="tool-suggestions-button"
+      target="lciobsidian">
+      Tool suggesties
+    </a>
+  </section>
 </div>

@@ -1,18 +1,87 @@
-// SCSS Variables
 @use '../../../../../src/assets/css/clicit-colors' as clicit-colors;
 
-$primary-text-color: #333;
-$container-background: #f7f9fc;
-
-// Styles
 .results-container {
-  padding: 20px;
-  background-color: $container-background;
-  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 100%;
+  padding: 28px 40px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #1e2328;
 }
 
 h2 {
-  font-size: 24px;
-  color: $primary-text-color;
-  margin-bottom: 20px;
+  margin: 0 0 16px;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.answers-section,
+.code-section {
+  width: 100%;
+}
+
+.answers-list {
+  display: grid;
+  gap: 10px;
+}
+
+.answer-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.7fr) 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(clicit-colors.$lc-blue, 0.2);
+}
+
+.answer-question {
+  font-weight: 600;
+}
+
+.answer-value {
+  line-height: 1.4;
+}
+
+.route-code {
+  display: inline-block;
+  min-width: 110px;
+  padding: 2px 12px;
+  border-radius: 4px;
+  background: #e6e6e6;
+  font-family: "Roboto Mono", "Courier New", monospace;
+  text-align: center;
+}
+
+p {
+  max-width: 820px;
+  margin: 0 0 22px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.tool-suggestions-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  height: 42px;
+  border-radius: 20px;
+  background: clicit-colors.$lc-blue;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .results-container {
+    padding: 22px 24px;
+  }
+
+  .answer-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
 }
