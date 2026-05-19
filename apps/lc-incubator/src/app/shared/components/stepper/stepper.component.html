@@ -1,6 +1,6 @@
 <mat-stepper #stepper (selectionChange)="stepperSelectionChanged($event)"
              *ngIf="this.configuration$ | async as configuration"
-             [selectedIndex]="selectedIndex$ | async" linear="false">
+             [selectedIndex]="selectedIndex$ | async" linear="true">
   <mat-step *ngFor="let step of configuration; let i = index" [completed]="step.completed">
     <ng-template matStepContent>
       <div class="mat-step-content-wrapper">
