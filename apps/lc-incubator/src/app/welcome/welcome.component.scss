@@ -23,20 +23,6 @@
       font-weight: bold;
       justify-self: center;
     }
-
-    .subtitle-text {
-      justify-self: center;
-      font-size: 2rem;
-    }
-
-    .title-image {
-      //$image-size: 150px;
-      //@include respond-to-max-height {
-      //  $image-size: 75px;
-      //}
-      //height: $image-size;
-      //width: $image-size;
-    }
   }
 
   .main-part {
@@ -93,8 +79,21 @@
   }
 
   .bottom-part {
-    //max-height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 60px;
+
+    @include respond-to-max-height {
+      padding-bottom: 24px;
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    .text-wrapper {
+      font-size: 1.6rem;
+    }
   }
 }
-
 

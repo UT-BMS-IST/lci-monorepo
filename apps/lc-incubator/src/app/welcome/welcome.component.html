@@ -2,26 +2,17 @@
   <div class="title-wrapper">
     <div>
       <div class="title-text">{{ "welcome.title" | translate }}</div>
-      <div class="subtitle-text"> {{ 'welcome.subtitle' | translate}} </div>
     </div>
   </div>
   <div class="main-part">
     <div class="image-and-text-wrapper">
       <div class="all-texts-wrapper">
-        <div class="row">
-          <div class="text-wrapper">{{ "welcome.instruments" | translate }}</div>
-        </div>
+
         <div class="row">
           <div class="text-wrapper">{{ "welcome.line1" | translate }}</div>
         </div>
         <div class="row">
           <div class="text-wrapper">{{ "welcome.line2" | translate }}</div>
-        </div>
-        <div class="row">
-          <div class="text-wrapper" [innerHTML]="'welcome.line3' | translate"> </div>
-        </div>
-        <div class="row">
-          <div class="text-wrapper" [innerHTML]="'welcome.line4' | translate"> </div>
         </div>
       </div>
     </div>
@@ -34,6 +25,8 @@
   </div>
 
   <div class="bottom-part">
-    <app-clic-it-social-media></app-clic-it-social-media>
+    <div class="row">
+      <div class="text-wrapper" [innerHTML]="'welcome.return' | translate"> </div>
+    </div>
   </div>
 </div>
