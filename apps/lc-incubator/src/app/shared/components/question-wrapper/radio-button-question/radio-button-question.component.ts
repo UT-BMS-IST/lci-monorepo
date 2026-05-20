@@ -4,6 +4,7 @@ import { Question } from '../../../services/questions.service'
 import { AnswerService } from '../../../services/answer.service'
 import { MatTooltip } from '@angular/material/tooltip'
 import { MatRadioButton, MatRadioChange, MatRadioGroup } from '@angular/material/radio';
+import { formatOptionTooltip } from '../option-tooltip';
 
 @Component({
   selector: 'app-radio-button-question',
@@ -24,7 +25,7 @@ export class RadioButtonQuestionComponent {
     });
   }
 
-  getTooltip(q: any): string {
-    return q;
+  getTooltip(value: string | null | undefined): string {
+    return formatOptionTooltip(value);
   }
 }

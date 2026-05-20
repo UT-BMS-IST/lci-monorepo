@@ -54,7 +54,6 @@ html {
 }
 
 .mat-mdc-tooltip-panel {
-
   .mat-mdc-tooltip .mdc-tooltip__surface {
     background-color: $lc-color;
     color: white;
@@ -64,8 +63,21 @@ html {
   }
 }
 
-/* You can add global styles to this file, and also import other style files */
+.mat-mdc-tooltip-panel.answer-option-tooltip,
+.mat-mdc-tooltip-panel .mat-mdc-tooltip.answer-option-tooltip {
+  .mat-mdc-tooltip .mdc-tooltip__surface,
+  .mdc-tooltip__surface {
+    max-width: min(720px, calc(100vw - 48px));
+    white-space: pre-line;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.45;
+    padding: 12px 18px;
+  }
+}
 
+/* You can add global styles to this file, and also import other style files */
 
 
 

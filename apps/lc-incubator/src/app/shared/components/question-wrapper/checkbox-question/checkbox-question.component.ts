@@ -5,6 +5,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { Question } from '../../../services/questions.service';
 import { AnswerService } from '../../../services/answer.service';
 import { MatCheckboxModule, MatCheckboxChange } from '@angular/material/checkbox';
+import { formatOptionTooltip } from '../option-tooltip';
 
 @Component({
   selector: 'app-checkbox-question',
@@ -36,7 +37,7 @@ export class CheckboxQuestionComponent {
     });
   }
 
-  getTooltip(q: any): string {
-    return q;
+  getTooltip(value: string | null | undefined): string {
+    return formatOptionTooltip(value);
   }
 }

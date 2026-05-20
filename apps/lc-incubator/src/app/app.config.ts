@@ -6,7 +6,7 @@ import { HttpClient, provideHttpClient } from '@angular/common/http'
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 
 const httpLoaderFactory: (http: HttpClient) => TranslateHttpLoader = (http: HttpClient) =>
-  new TranslateHttpLoader(http, './i18n/', '.json')
+  new TranslateHttpLoader(http, './i18n/', `.json?v=${Date.now()}`)
 
 export const appConfig: ApplicationConfig = {
   providers: [
