@@ -8,12 +8,14 @@
   }
 
   .app-stepper-wrapper {
-    height: calc(100% - 34px);
-    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    overflow-y: hidden;
 
     .stepper {
       display: flex;
       height: 100%;
+      min-height: 0;
     }
   }
 
