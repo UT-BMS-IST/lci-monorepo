@@ -1,9 +1,15 @@
 .radio-group-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 8px;
   text-align: start;
 
   mat-icon {
     margin-left: auto;
   }
+}
+
+:host ::ng-deep .radio-button-wrapper .mdc-label {
+  font-size: 2rem;
+  line-height: 1.4;
 }

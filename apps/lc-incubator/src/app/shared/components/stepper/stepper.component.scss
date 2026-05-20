@@ -89,7 +89,7 @@ mat-stepper {
   //padding: 10px;
 
   &.single {
-    overflow-y: auto;
+    //overflow-y: auto;
     @include clicit-variables.respond-to-max-height() {
       height: 100%;
     }

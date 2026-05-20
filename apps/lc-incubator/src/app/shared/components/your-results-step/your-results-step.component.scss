@@ -30,16 +30,19 @@ h2 {
 .answer-row {
   display: grid;
   grid-template-columns: minmax(190px, 0.7fr) 1fr;
-  gap: 16px;
+  gap: 24px;
   padding: 12px 0;
   border-bottom: 1px solid rgba(clicit-colors.$lc-blue, 0.2);
 }
 
 .answer-question {
+  font-size: 2rem;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 .answer-value {
+  font-size: 2rem;
   line-height: 1.4;
 }
 

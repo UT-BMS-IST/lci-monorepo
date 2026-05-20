@@ -1,3 +1,9 @@
+:host > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .checkbox-wrapper {
   display: flex;
   align-items: center;
@@ -5,4 +11,9 @@
   mat-icon {
     margin-left: auto;
   }
+}
+
+:host ::ng-deep .checkbox-wrapper .mdc-label {
+  font-size: 2rem;
+  line-height: 1.4;
 }
