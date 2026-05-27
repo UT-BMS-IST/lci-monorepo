@@ -2,23 +2,23 @@
 - questions:
     - id: route
       type: radio
-      questionSubtitle: "TESTWaarvoor zoek je een tool?"
+      questionSubtitle: "Waarvoor zoek je een tool?"
       configuration:
         options:
           - value: "R1"
             label: "Ontwerp van de learning community"
-            optionExplanation: "Hoe ziet onze LC eruit?"
+            optionExplanation: "Hoe ziet onze LC er op hoofdlijnen uit?"
           - value: "R2"
             label: "Context en betrokkenen"
-            optionExplanation: "Waar speelt dit en wie zijn de stakeholders?"
+            optionExplanation: "Waar speelt dit? Wie participeren?"
           - value: "R3"
             label: "Richting, ambitie en waarde"
-            optionExplanation: "Waarom werken we samen?"
+            optionExplanation: "Waarom werken we samen? Wat willen we bereiken?"
           - value: "R4"
-            label: "Ontwikkelen en testen"
-            optionExplanation: "Wat willen we samen leren en innoveren?"
+            label: "Ontwikkelen, leren en testen"
+            optionExplanation: "Wat willen we concreet samen leren en innoveren? Hoe doen we dat?"
           - value: "R5"
-            label: "Resultaten en impact"
+            label: "Evalueren van resultaten en impact"
             optionExplanation: "Wat hebben we geleerd en wat heeft het opgeleverd?"
 
 - questions:
@@ -32,11 +32,11 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen de LC als geheel scherp krijgen"
-            optionExplanation: "Bijvoorbeeld: het is nog niet duidelijk wat de LC precies is. De onderdelen van de LC hangen nog niet goed samen."
+            label: "We willen de LC als geheel scherper maken"
+            optionExplanation: "Bijvoorbeeld: We willen de LC in kaart brengen als samenhangend geheel."
           - value: "B"
             label: "We willen de LC beter organiseren"
-            optionExplanation: "Bijvoorbeeld: er is onduidelijkheid over werkwijze en structuur. We weten niet wat nodig is om de LC verder te ontwikkelen."
+            optionExplanation: "Bijvoorbeeld: De werkwijzen en structuur zijn onduidelijk."
     - id: scenario_r2
       type: radio
       questionSubtitle: "Welke situatie past het best?"
@@ -47,11 +47,11 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen de context beter begrijpen"
-            optionExplanation: "Bijvoorbeeld: het is nog niet duidelijk welke ontwikkelingen belangrijk zijn. We missen overzicht van het speelveld waarin de LC zich bevindt."
+            label: "We willen de context beter kennen"
+            optionExplanation: "Bijvoorbeeld: We willen ontwikkelingen en het speelveld van de LC in kaart brengen."
           - value: "B"
             label: "We willen betrokkenen beter begrijpen"
-            optionExplanation: "Bijvoorbeeld: het is nog niet duidelijk wie de betrokkenen zijn bij de LC. We missen inzicht in belangen en invloed van stakeholders."
+            optionExplanation: "Bijvoorbeeld: We missen inzicht in belangen en invloed van stakeholders."
     - id: scenario_r3
       type: radio
       questionSubtitle: "Welke situatie past het best?"
@@ -62,11 +62,11 @@
       configuration:
         options:
           - value: "A"
-            label: "We zoeken een gedeelde richting"
-            optionExplanation: "Bijvoorbeeld: we hebben nog geen gezamenlijk beeld van waar we naartoe werken. Motieven, ambitie of waarde blijven nog impliciet."
+            label: "We willen een gedeelde richting verkennen"
+            optionExplanation: "Bijvoorbeeld: We willen gezamenlijk ambitie, motieven en waarden in kaart brengen"
           - value: "B"
             label: "We willen richting vertalen naar activiteiten"
-            optionExplanation: "Bijvoorbeeld: we weten waarom we samenwerken, maar nog niet wat we wel en niet gaan doen. Activiteiten ontstaan los van elkaar en missen samenhang."
+            optionExplanation: "Bijvoorbeeld: We willen onze gedeelde richting uitvoeren."
     - id: scenario_r4
       type: radio
       questionSubtitle: "Welke situatie past het best?"
@@ -78,10 +78,10 @@
         options:
           - value: "A"
             label: "We willen scherp krijgen wat we willen leren of innoveren"
-            optionExplanation: "Bijvoorbeeld: er zijn ideeen en oplossingsrichtingen, maar geen scherpe leer- of innovatievraag. We weten nog niet waar we eerst duidelijkheid over nodig hebben."
+            optionExplanation: "Bijvoorbeeld: We willen ideeen en oplossingsrichtingen in kaart brengen."
           - value: "B"
-            label: "We willen iets uitproberen in de praktijk"
-            optionExplanation: "Bijvoorbeeld: we hebben een leer- of innovatievraagstuk, maar nog geen concrete aanpak. We willen bepalen wie meedoet, wat we vastleggen en hoe we daarvan leren."
+            label: "We willen een concreet idee of innovatievraagstuk uitproberen in de praktijk"
+            optionExplanation: "Bijvoorbeeld: We hebben een leer- of innovatievraagstuk, maar nog geen heldere aanpak."
     - id: scenario_r5
       type: radio
       questionSubtitle: "Welke situatie past het best?"
@@ -92,21 +92,21 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen samen leren van wat er is gebeurd"
-            optionExplanation: "Bijvoorbeeld: we hebben activiteiten, sessies of experimenten gedaan, maar nog niet besproken wat we ervan leren. We merken dat dezelfde vragen, knelpunten of verbeterpunten terugkomen."
+            label: "We willen zien wat we gedaan hebben"
+            optionExplanation: "Bijvoorbeeld: We willen onze activiteiten, sessies en experimenten in kaart brengen."
           - value: "B"
-            label: "We willen opbrengsten en impact zichtbaar maken"
-            optionExplanation: "Bijvoorbeeld: er gebeurt veel in de LC, maar het is lastig uit te leggen wat het oplevert. We willen zichtbaar maken welke waarde, resultaten of effecten de LC heeft."
+            label: "We willen opbrengsten en impact vertalen naar actie"
+            optionExplanation: "Bijvoorbeeld: We willen de resultaten en effecten van de LC meetbaar maken"
 
 - questions:
     - id: audience
       type: radio
-      questionSubtitle: "Met wie wil je de tool gebruiken?"
+      questionSubtitle: "Welk antwoord typeert de setting waarin je de tool wilt gebruiken?"
       configuration:
         options:
           - value: "G"
-            label: "Met een gemengde groep betrokkenen"
-            optionExplanation: "Brede groep betrokkenen uit verschillende posities in en rond de LC."
+            label: "We stimuleren leren en innovatie vooral via verbinden, inspireren, en kennis delen"
+            optionExplanation: "Bijvoorbeeld via netwerkbijeenkomsten, inspiratiesessie en webinars"
           - value: "K"
-            label: "Met een kernteam of projectgroep"
-            optionExplanation: "Relatief vaste groep die samen iets uitvoert, zoals een LC-team of innovatieteam."
+            label: "We ondersteunen leren en innovatie vooral via experimenteren in de praktijk"
+            optionExplanation: "Bijvoorbeeld via een omgeving met faciliteiten (field lab), of in een 'real life' setting (living lab of challenge based)"
