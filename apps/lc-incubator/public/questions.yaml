@@ -2,29 +2,29 @@
 - questions:
     - id: route
       type: radio
-      questionSubtitle: "Waarvoor zoek je een tool?"
+      questionSubtitle: "Waar wil je aan werken binnen de Learning Community?"
       configuration:
         options:
           - value: "R1"
-            label: "Ontwerp van de learning community"
-            optionExplanation: "Hoe ziet onze LC er op hoofdlijnen uit?"
+            label: "Doelen, motieven en waarde aanscherpen"
+            optionExplanation: "Wat willen we samen bereiken en waarom is dat belangrijk?"
           - value: "R2"
-            label: "Context en betrokkenen"
-            optionExplanation: "Waar speelt dit? Wie participeren?"
+            label: "Partners en context begrijpen"
+            optionExplanation: "Met wie trekken we samen op en welke externe ontwikkelingen komen er op ons af?"
           - value: "R3"
-            label: "Richting, ambitie en waarde"
-            optionExplanation: "Waarom werken we samen? Wat willen we bereiken?"
+            label: "Aanpak, activiteiten en rollen organiseren"
+            optionExplanation: "Hoe kunnen we onze doelen behalen?"
           - value: "R4"
-            label: "Ontwikkelen, leren en testen"
-            optionExplanation: "Wat willen we concreet samen leren en innoveren? Hoe doen we dat?"
+            label: "Resultaten, leren en impact duiden"
+            optionExplanation: "Wat hebben we samen bereikt?"
           - value: "R5"
-            label: "Evalueren van resultaten en impact"
-            optionExplanation: "Wat hebben we geleerd en wat heeft het opgeleverd?"
+            label: "LC ontwerp aanscherpen en condities versterken"
+            optionExplanation: "Hoe is de LC ingericht en wat heeft de samenwerking nodg om goed te kunnen functioneren?"
 
 - questions:
     - id: scenario_r1
       type: radio
-      questionSubtitle: "Welke situatie past het best?"
+      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
       condition:
         id: route
         value:
@@ -32,14 +32,14 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen de LC als geheel scherper maken"
-            optionExplanation: "Bijvoorbeeld: We willen de LC in kaart brengen als samenhangend geheel."
+            label: "We hebben eerst overzicht nodig"
+            optionExplanation: "Doelen, motieven of waarde voor betrokken partijen zijn nog niet scherp genoeg, worden verschillend geinterpreteerd of zijn onvoldoende met elkaar verbonden"
           - value: "B"
-            label: "We willen de LC beter organiseren"
-            optionExplanation: "Bijvoorbeeld: De werkwijzen en structuur zijn onduidelijk."
+            label: "We willen bepalen waar aandacht of actie nodig is"
+            optionExplanation: "Ambities en doelen zijn al in beeld, maar het is nodig deze verder uit te werken, af te wegen, te prioriteren of te volgen"
     - id: scenario_r2
       type: radio
-      questionSubtitle: "Welke situatie past het best?"
+      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
       condition:
         id: route
         value:
@@ -47,14 +47,14 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen de context beter kennen"
-            optionExplanation: "Bijvoorbeeld: We willen ontwikkelingen en het speelveld van de LC in kaart brengen."
+            label: "We hebben eerst overzicht nodig"
+            optionExplanation: "Welke partners, stakeholders, of externe ontwikkelingen relevant zijn, is nog onvoldoende scherp of onvoldoende in samenhang"
           - value: "B"
-            label: "We willen betrokkenen beter begrijpen"
-            optionExplanation: "Bijvoorbeeld: We missen inzicht in belangen en invloed van stakeholders."
+            label: "We willen bepalen waar aandacht of actie nodig is"
+            optionExplanation: "Partners, stakeholders en externe ontwikkelingen zijn al in beeld, maar het is nodig om deze verder uit te werken, af te wegen, te prioriteren, of te volgen"
     - id: scenario_r3
       type: radio
-      questionSubtitle: "Welke situatie past het best?"
+      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
       condition:
         id: route
         value:
@@ -62,14 +62,14 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen een gedeelde richting verkennen"
-            optionExplanation: "Bijvoorbeeld: We willen gezamenlijk ambitie, motieven en waarden in kaart brengen"
+            label: "We hebben eerst overzicht nodig"
+            optionExplanation: "Welke activiteiten, rollen. middelen of werkwijzen nodig zijn, is nog niet scherp genoeg of onvoldoende in samenhang"
           - value: "B"
-            label: "We willen richting vertalen naar activiteiten"
-            optionExplanation: "Bijvoorbeeld: We willen onze gedeelde richting uitvoeren."
+            label: "We willen bepalen waar aandacht of actie nodig is"
+            optionExplanation: "Activiteiten, rollen en werkwijzen zijn al in beeld, maar het is nodig om ze verder uit te werken, af te wegen, te prioriteren, te verdelen of te volgen"
     - id: scenario_r4
       type: radio
-      questionSubtitle: "Welke situatie past het best?"
+      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
       condition:
         id: route
         value:
@@ -77,14 +77,14 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen scherp krijgen wat we willen leren of innoveren"
-            optionExplanation: "Bijvoorbeeld: We willen ideeen en oplossingsrichtingen in kaart brengen."
+            label: "We hebben eerst overzicht nodig"
+            optionExplanation: "Welke resultaten, leeropbrengsten, effecten of impact verwacht worden of bereikt zijn, is nog niet scherp genoeg of onvoldoende in samenhang"
           - value: "B"
-            label: "We willen een concreet idee of innovatievraagstuk uitproberen in de praktijk"
-            optionExplanation: "Bijvoorbeeld: We hebben een leer- of innovatievraagstuk, maar nog geen heldere aanpak."
+            label: "We willen bepalen waar aandacht of actie nodig is"
+            optionExplanation: "Resultaten, leeropbrengsten en impact zijn al in beeld, maar het is nodig ze verder uit te werken of op te volgen en delen"
     - id: scenario_r5
       type: radio
-      questionSubtitle: "Welke situatie past het best?"
+      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
       condition:
         id: route
         value:
@@ -92,21 +92,21 @@
       configuration:
         options:
           - value: "A"
-            label: "We willen zien wat we gedaan hebben"
-            optionExplanation: "Bijvoorbeeld: We willen onze activiteiten, sessies en experimenten in kaart brengen."
+            label: "We hebben eerst overzicht nodig"
+            optionExplanation: "Hoe de LC is ingericht, hoe onderdelen samenhangen, of welke condities nodig zijn om goed te functioneren, is nog niet scherp genoeg"
           - value: "B"
-            label: "We willen opbrengsten en impact vertalen naar actie"
-            optionExplanation: "Bijvoorbeeld: We willen de resultaten en effecten van de LC meetbaar maken"
+            label:  "We willen bepalen waar aandacht of actie nodig is"
+            optionExplanation: "Inrichting en benodigde condities voor goed functioneren zijn al in beeld, maar het is nodig deze verder uit te werken, te beoordelen, te versterken of op te volgen"
 
 - questions:
     - id: audience
       type: radio
-      questionSubtitle: "Welk antwoord typeert de setting waarin je de tool wilt gebruiken?"
+      questionSubtitle: "Wat beschrijft de kern van jouw LC het beste?"
       configuration:
         options:
           - value: "G"
-            label: "We stimuleren leren en innovatie vooral via verbinden, inspireren, en kennis delen"
-            optionExplanation: "Bijvoorbeeld via netwerkbijeenkomsten, inspiratiesessie en webinars"
+            label: "Verbinden, inspireren en kennis delen"
+            optionExplanation: "Vooral gericht op netwerkvorming, ontmoeting, kennisuitwisseling, inspiratie, agendering van regionale of landelijke vraagstukken"
           - value: "K"
-            label: "We ondersteunen leren en innovatie vooral via experimenteren in de praktijk"
-            optionExplanation: "Bijvoorbeeld via een omgeving met faciliteiten (field lab), of in een 'real life' setting (living lab of challenge based)"
+            label: "Samen leren, innoveren en experimenteren"
+            optionExplanation: "Vooral gericht op gezamnelijk leren, co-creatie, exerimenteren, ontwikkelen en verbeteren van nieuwe, concrete oplossingen in de praktijk"
