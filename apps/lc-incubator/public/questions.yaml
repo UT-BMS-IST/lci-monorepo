@@ -19,7 +19,7 @@
             optionExplanation: "Wat hebben we samen bereikt?"
           - value: "R5"
             label: "LC ontwerp aanscherpen en condities versterken"
-            optionExplanation: "Hoe is de LC ingericht en wat heeft de samenwerking nodg om goed te kunnen functioneren?"
+            optionExplanation: "Hoe is de LC ingericht en wat heeft de samenwerking nodig om goed te kunnen functioneren?"
 
 - questions:
     - id: scenario_r1
