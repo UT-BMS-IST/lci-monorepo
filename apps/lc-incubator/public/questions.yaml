@@ -6,7 +6,7 @@
       configuration:
         options:
           - value: "R1"
-            label: "Doelen, motieven en waarde aanscherpen"
+            label: "Ambitie, doelen, motieven en waarde aanscherpen"
             optionExplanation: "Wat willen we samen bereiken en waarom is dat belangrijk?"
           - value: "R2"
             label: "Partners en context begrijpen"
@@ -33,10 +33,10 @@
         options:
           - value: "A"
             label: "We hebben eerst overzicht nodig"
-            optionExplanation: "Doelen, motieven of waarde voor betrokken partijen zijn nog niet scherp genoeg, worden verschillend geinterpreteerd of zijn onvoldoende met elkaar verbonden"
+            optionExplanation: "Ambitie, doelen, motieven of waarde voor betrokken partijen zijn nog niet scherp genoeg, worden verschillend geinterpreteerd of zijn onvoldoende met elkaar verbonden"
           - value: "B"
             label: "We willen bepalen waar aandacht of actie nodig is"
-            optionExplanation: "Ambities en doelen zijn al in beeld, maar het is nodig deze verder uit te werken, af te wegen, te prioriteren of te volgen"
+            optionExplanation: "Ambities, doelen, motieven of waarde zijn al in beeld, maar het is nodig deze verder uit te werken, af te wegen, te prioriteren of te volgen"
     - id: scenario_r2
       type: radio
       questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
