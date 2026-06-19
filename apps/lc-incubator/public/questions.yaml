@@ -18,7 +18,7 @@
             label: "Resultaten, leren en impact duiden"
             optionExplanation: "Wat hebben we samen bereikt?"
           - value: "R5"
-            label: "LC ontwerp aanscherpen en condities versterken"
+            label: "Nieuwe LC starten of het bestaande ontwerp aanscherpen en verdiepen"
             optionExplanation: "Hoe is de LC ingericht en wat heeft de samenwerking nodig om goed te kunnen functioneren?"
 
 - questions:
@@ -92,10 +92,10 @@
       configuration:
         options:
           - value: "A"
-            label: "We hebben eerst overzicht nodig"
+            label: "We hebben overzicht nodig"
             optionExplanation: "Hoe de LC is ingericht, hoe onderdelen samenhangen, of welke condities nodig zijn om goed te functioneren, is nog niet scherp genoeg"
           - value: "B"
-            label:  "We willen bepalen waar aandacht of actie nodig is"
+            label:  "We willen het ontwerp omzetten in actie"
             optionExplanation: "Inrichting, samenhang en benodigde condities voor goed functioneren zijn al in beeld, maar het is nodig deze verder uit te werken, te beoordelen, te versterken of op te volgen"
 
 - questions:
