@@ -19,7 +19,7 @@
             optionExplanation: "Wat hebben we samen bereikt?"
           - value: "R5"
             label: "Samenhang zichtbaar maken"
-            optionExplanation: "Welke beeld hebben we van de onderdelen en ontwikkeling de LC als geheel?"
+            optionExplanation: "Welke beeld hebben we van de onderdelen van de LC en/of de ontwikkeling ervan als geheel?"
 
 - questions:
     - id: scenario_r1
