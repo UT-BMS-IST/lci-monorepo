@@ -9,7 +9,7 @@
             label: "Scherp krijgen waar we voor gaan"
             optionExplanation: "Ambitie, doelen, motieven en waarde aanscherpen"
           - value: "R2"
-            label: "In beeld krijgen wie en wat belangrijk is"
+            label: "In beeld krijgen wie belangrijk is en wat er speelt rondom het samenwerkingsverband"
             optionExplanation: "Partners, stakeholders, context en randvoorwaarden begrijpen"
           - value: "R3"
             label: "Grip krijgen op de samenwerking"
@@ -24,7 +24,7 @@
 - questions:
     - id: scenario_r1
       type: radio
-      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
+      questionSubtitle: "Wat is nu vooral nodig om scherp te krijgen waar de LC voor gaat?"
       condition:
         id: route
         value:
@@ -39,7 +39,7 @@
             optionExplanation: "Ambities, doelen, motieven of waarde zijn al in beeld, maar het is nodig deze verder uit te werken, af te wegen, te prioriteren of te volgen"
     - id: scenario_r2
       type: radio
-      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
+      questionSubtitle: "Wat is nu vooral nodig om te weten wie en wat belangrijk is?"
       condition:
         id: route
         value:
@@ -54,7 +54,7 @@
             optionExplanation: "Partners, stakeholders en externe ontwikkelingen zijn al in beeld, maar het is nodig om deze verder uit te werken, af te wegen, te prioriteren, of te volgen"
     - id: scenario_r3
       type: radio
-      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
+      questionSubtitle: "Wat is nu vooral nodig om grip te krijgen op de samenwerking?"
       condition:
         id: route
         value:
@@ -69,7 +69,7 @@
             optionExplanation: "Activiteiten, rollen, middelen en werkwijzen zijn al in beeld, maar het is nodig om ze verder uit te werken, af te wegen, te prioriteren, te verdelen of te volgen"
     - id: scenario_r4
       type: radio
-      questionSubtitle: "Wat is nu vooral nodig als eerste stap?"
+      questionSubtitle: "Wat is nu vooral nodig om zicht te krijgen op wat de samenwerking oplevert?"
       condition:
         id: route
         value:
