@@ -2,24 +2,24 @@
 - questions:
     - id: route
       type: radio
-      questionSubtitle: "Waar wil je aan werken binnen de Learning Community?"
+      questionSubtitle: "Waar wil je de Learning Community bij ondersteunen?"
       configuration:
         options:
           - value: "R1"
-            label: "Ambitie, doelen, motieven en waarde aanscherpen"
-            optionExplanation: "Wat willen we samen bereiken en waarom is dat belangrijk?"
+            label: "Scherp krijgen waar we voor gaan"
+            optionExplanation: "Ambitie, doelen, motieven en waarde aanscherpen"
           - value: "R2"
-            label: "Partners en context begrijpen"
-            optionExplanation: "Met wie trekken we samen op en welke externe ontwikkelingen komen er op ons af?"
+            label: "In beeld krijgen wie en wat belangrijk is"
+            optionExplanation: "Partners, stakeholders, context en randvoorwaarden begrijpen"
           - value: "R3"
-            label: "Werkwijze en rollen organiseren"
-            optionExplanation: "Hoe kunnen we onze doelen behalen?"
+            label: "Grip krijgen op de samenwerking"
+            optionExplanation: "Werkwijze en rollen, activiteiten, rollen en verantwoordelijkheden organiseren"
           - value: "R4"
-            label: "Resultaten, leren en impact bespreken"
-            optionExplanation: "Wat hebben we samen bereikt?"
+            label: "Zicht krijgen op wat het oplevert"
+            optionExplanation: "Resultaten, leren, waarde en impact bespreken"
           - value: "R5"
-            label: "Samenhang zichtbaar maken"
-            optionExplanation: "Welke beeld hebben we van de onderdelen van de LC en/of de ontwikkeling ervan als geheel?"
+            label: "Overzicht krijgen van het geheel"
+            optionExplanation: "De samenhang, inrichting en ontwikkeling van de LC zichtbaar maken"
 
 - questions:
     - id: scenario_r1
