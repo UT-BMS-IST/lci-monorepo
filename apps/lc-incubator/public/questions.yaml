@@ -13,12 +13,12 @@
             optionExplanation: "Partners, stakeholders, context en randvoorwaarden begrijpen"
           - value: "R3"
             label: "Grip krijgen op de samenwerking"
-            optionExplanation: "Werkwijze en rollen, activiteiten, rollen en verantwoordelijkheden organiseren"
+            optionExplanation: "Werkwijze, activiteiten, rollen en verantwoordelijkheden organiseren"
           - value: "R4"
-            label: "Zicht krijgen op wat het oplevert"
+            label: "Zicht krijgen op wat de samenwerking oplevert"
             optionExplanation: "Resultaten, leren, waarde en impact bespreken"
           - value: "R5"
-            label: "Overzicht krijgen van het geheel"
+            label: "Overzicht krijgen van de samenwerking als geheel"
             optionExplanation: "De samenhang, inrichting en ontwikkeling van de LC zichtbaar maken"
 
 - questions:
