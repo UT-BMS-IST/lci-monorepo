@@ -5,6 +5,8 @@ import { ProgressButtonsService } from '../../services/progress-buttons.service'
 import { AsyncPipe, NgIf } from '@angular/common'
 import { MatAnchor, MatButton } from '@angular/material/button'
 import { TranslatePipe } from '@ngx-translate/core'
+import { AnswerService } from '../../services/answer.service'
+import { buildRouteCode, buildRoutePageUrl } from '../../services/route-code'
 
 @Component({
   selector: 'app-progress-buttons',
@@ -13,12 +15,15 @@ import { TranslatePipe } from '@ngx-translate/core'
   imports: [AsyncPipe, MatAnchor, MatButton, NgIf, TranslatePipe],
 })
 export class ProgressButtonsComponent {
-  readonly routePageUrl = 'https://publish.obsidian.md/lci/Routepagina';
-
   //use the inject syntax for the services
   progressButtonsService = inject(ProgressButtonsService);
+  answerService = inject(AnswerService);
   activatedRoute = inject(ActivatedRoute);
   router = inject(Router);
+
+  routePageUrl$ = this.answerService
+    .getAnswers()
+    .pipe(map((answers) => buildRoutePageUrl(buildRouteCode(answers))));
 
   shouldShowPrevious$: Observable<boolean> =
     this.progressButtonsService.shouldShowPrevious();

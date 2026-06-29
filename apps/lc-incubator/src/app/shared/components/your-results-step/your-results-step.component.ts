@@ -3,6 +3,7 @@ import { combineLatest, map } from 'rxjs';
 import { Answer, AnswerService } from '../../services/answer.service';
 import { Question, QuestionsService } from '../../services/questions.service';
 import { NgForOf } from '@angular/common';
+import { buildRouteCode } from '../../services/route-code';
 
 @Component({
   selector: 'app-your-results-step',
@@ -46,7 +47,7 @@ export class YourResultsStepComponent implements OnInit {
               };
             });
 
-          this.routeCode = this.buildRouteCode(answers);
+          this.routeCode = buildRouteCode(answers);
         })
       )
       .subscribe();
@@ -74,20 +75,6 @@ export class YourResultsStepComponent implements OnInit {
     return false;
   }
 
-  private buildRouteCode(answers: Answer[]): string {
-    const route = answers.find((answer) => answer.questionId === 'route')?.value;
-    const scenario = answers.find(
-      (answer) => answer.questionId === `scenario_${route?.toLowerCase()}`
-    )?.value;
-    const audience = answers.find((answer) => answer.questionId === 'audience')
-      ?.value;
-
-    if (!route || !scenario || !audience) {
-      return '...';
-    }
-
-    return `${route}${scenario}${audience}`;
-  }
 }
 
 export interface Result {
