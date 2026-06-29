@@ -16,7 +16,6 @@ export class YourResultsStepComponent implements OnInit {
 
   results: Result[] = [];
   routeCode = '...';
-  routePageUrl = 'https://publish.obsidian.md/lci/Routepagina';
 
   ngOnInit() {
     combineLatest([

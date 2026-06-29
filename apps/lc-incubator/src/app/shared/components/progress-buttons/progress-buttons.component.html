@@ -22,6 +22,12 @@
               color="primary"
               mat-raised-button> {{ "progressButtons.restart" | translate }}
       </button>
+      <a *ngIf="this.shouldShowRestart$ | async"
+         [href]="routePageUrl"
+         class="progress-btn"
+         color="primary"
+         mat-raised-button
+         target="lciobsidian">Tool suggesties</a>
     </div>
   </div>
 

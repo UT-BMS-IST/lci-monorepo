@@ -3,16 +3,18 @@ import { map, Observable } from 'rxjs'
 import { ActivatedRoute, Router } from '@angular/router'
 import { ProgressButtonsService } from '../../services/progress-buttons.service'
 import { AsyncPipe, NgIf } from '@angular/common'
-import { MatButton } from '@angular/material/button'
+import { MatAnchor, MatButton } from '@angular/material/button'
 import { TranslatePipe } from '@ngx-translate/core'
 
 @Component({
   selector: 'app-progress-buttons',
   templateUrl: './progress-buttons.component.html',
   styleUrls: ['./progress-buttons.component.scss'],
-  imports: [AsyncPipe, MatButton, NgIf, TranslatePipe],
+  imports: [AsyncPipe, MatAnchor, MatButton, NgIf, TranslatePipe],
 })
 export class ProgressButtonsComponent {
+  readonly routePageUrl = 'https://publish.obsidian.md/lci/Routepagina';
+
   //use the inject syntax for the services
   progressButtonsService = inject(ProgressButtonsService);
   activatedRoute = inject(ActivatedRoute);
