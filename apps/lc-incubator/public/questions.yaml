@@ -17,10 +17,6 @@
           - value: "R4"
             label: "Zicht krijgen op wat de samenwerking oplevert"
             optionExplanation: "Resultaten, leren, waarde en impact bespreken"
-          - value: "R5"
-            label: "Overzicht krijgen van de samenwerking als geheel"
-            optionExplanation: "De samenhang, inrichting en ontwikkeling van de LC zichtbaar maken"
-
 - questions:
     - id: scenario_r1
       type: radio
@@ -82,22 +78,6 @@
           - value: "B"
             label: "We willen bepalen waar aandacht of actie nodig is"
             optionExplanation: "Resultaten, leeropbrengsten, effecten en impact zijn al in beeld, maar het is nodig ze verder uit te werken of op te volgen en delen"
-    - id: scenario_r5
-      type: radio
-      questionSubtitle: "Wat wil je nu vooral zichtbaar maken?"
-      condition:
-        id: route
-        value:
-          - "R5"
-      configuration:
-        options:
-          - value: "A"
-            label: "De inrichting van de LC"
-            optionExplanation: "Hoe de onderdelen van de LC samenhangen"
-          - value: "B"
-            label:  "De status en ontwikkeling van de LC door de tijd"
-            optionExplanation: "Waar de LC nu staat en welke vervolgstappen nodig zijn"
-
 - questions:
     - id: audience
       type: radio
