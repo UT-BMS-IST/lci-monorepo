@@ -1,0 +1,34 @@
+name: Deploy LC Incubator to LISA
+
+permissions:
+  contents: read
+  packages: write
+  actions: write
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+env:
+  General_Timeout_Minutes: 15
+
+jobs:
+  deploy:
+    runs-on:
+      - self-hosted
+      - test-runner
+    steps:
+      - name: Identify Runner
+        id: runner-info
+        run: echo "RUNNER_NAME=$(hostname)" >> $GITHUB_ENV
+
+      - name: Show Selected Runner
+        run: |
+          echo "Running on: $RUNNER_NAME"
+
+      - name: Start Docker Services
+        run: |
+          cd /opt/application/lc-incubator
+          docker system prune -af
+          docker compose --env-file .env.lc-incubator -f docker-compose.lc-incubator.yml pull
+          docker compose --env-file .env.lc-incubator -f docker-compose.lc-incubator.yml up -d

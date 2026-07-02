@@ -26,35 +26,18 @@ nx serve lc-incubator
 
 ## How it works
 
-The questionnaire is fully configured using two YAML files found in the `public` directory:
+The questionnaire is fully configured using a YAML file found in the `public` directory:
 
 - **`questions.yaml`**  
   Defines the questions that are shown to the user, including the available answer options and their descriptions.
-
-- **`results.yaml`**  
-  Defines which tool is recommended for each possible combination of answers.
-
-Together, these files determine both the flow of the questionnaire and the final recommendation shown to the user.
 
 ### Questions configuration
 
 The structure and wording of these questions are fully defined in `questions.yaml`, making it easy to update or extend the questionnaire without changing application code.
 
-### Recommendation logic
-
-After the user answers all questions, the application looks up a matching entry in `results.yaml`.
-
-Each entry in `results.yaml` contains:
-- A set of conditions (one answer per question)
-- A corresponding URL to a tool that fits that specific situation
-
-When a matching combination is found, the user is redirected to the associated tool.
-
 ### Key characteristics
 
-- All logic is rule-based and transparent
 - No personal or questionnaire data is stored
 - No backend or database is used
-- The recommendation is determined instantly on the client side
 
 This approach makes the application easy to extend, without much technical knowledge.

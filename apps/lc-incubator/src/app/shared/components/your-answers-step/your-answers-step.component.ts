@@ -2,10 +2,6 @@ import { Component, inject, OnInit } from '@angular/core';
 import { map, switchMap } from 'rxjs';
 import { Answer, AnswerService } from '../../services/answer.service';
 import { QuestionsService } from '../../services/questions.service';
-import {
-  ResultsService,
-  LCResultWithVisibility,
-} from '../../services/results.service';
 import { NgForOf, NgIf, SlicePipe } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 
@@ -18,10 +14,8 @@ import { TranslatePipe } from '@ngx-translate/core';
 export class YourAnswersStepComponent implements OnInit {
   answerService = inject(AnswerService);
   questionsService = inject(QuestionsService);
-  guidelinesService = inject(ResultsService);
 
   results: Result[] = [];
-  guidelines: LCResultWithVisibility[] = [];
   expanded: boolean[] = [];
 
   toggleExpand(index: number) {
@@ -80,10 +74,6 @@ export class YourAnswersStepComponent implements OnInit {
       .subscribe((x) => {
         // console.log(x)
       });
-
-    this.guidelinesService.visibleResults$.subscribe((guidelines) => {
-      this.guidelines = guidelines;
-    });
   }
 }
 

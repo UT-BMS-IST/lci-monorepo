@@ -44,3 +44,6 @@ Thumbs.db
 .github/instructions/nx.instructions.md
 
 .angular
+
+# dotenv environment variable files
+/.env.lc-incubator
